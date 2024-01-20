@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrilliantHome|About</title>
+    <!--=============== ICO ===============-->
+    <link rel="icon" type="ICO" sizes="32x32" href="img/logo/ico.png">
+    <link rel="icon" type="ICO" sizes="16x16" href="img/logo/ico.png">
+    <link rel="apple-touch-icon" type="ICO" sizes="180x180" href="img/logo/ico.png">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/css-faq/header.css">
+    <link rel="stylesheet" href="css/css-faq/dark.css"> 
+    <link rel="stylesheet" href="css/css-faq/space.css">
+    <link rel="stylesheet" href="css/css-faq/button.css">
+    <link rel="stylesheet" href="css/css-faq/main.css">
+    <link rel="stylesheet" href="css/css-faq/footer.css">
+    <link rel="stylesheet" href="css/css-faq/page-faq.css">
+    <link rel="stylesheet" href="css/css-faq/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-vC5aAfIS18WJkC9e8ZbQf7zUajdqID7cEXV+sGQVF9b4ZAvl1iMzC3eTKQCeMCE/IbX39Yi7+BBolO6o9z5Flw==" crossorigin="anonymous" />
+
+
+</head>
+<body>
+    <!-- ================= HEADER =================-->
+    <header class="header dark-head">
+      <div class="container">
+          <nav class="nav">
+              <div class="nav__login">
+                  <ul class="flex items-center">
+                      <li>
+
+                        <div class="dropdown" id="loginDropdown">
+                          <button class="login-button-link" onclick="toggleDropdown()">
+                              <img src="img/svg/login.svg" alt="Login" class="login-icon white-icon">
+                          </button>
+                          <div class="login-dropdown-content" id="dropdownContent">
+                              <a href="#" onclick="registerAction()">
+                                  <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
+                                  <span class="dark-lista">Login | Register</span>
+                              </a>
+                          </div>
+                      </div>
+                      
+                      
+                      
+                      </li>
+                      <li>
+                          <div class="language-dropdown">
+                              <button id="languageButton" class="flex items-center white-icon">
+                                  <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+                              </button>
+                              <div class="language-list dark-list">
+                                <ul class="listul">
+                                  <li class="listli"><a href="#" onclick="changeLanguage('en')" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
+                                  <li class="listli"><a href="#" onclick="changeLanguage('es')" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+                                  <!-- Добавьте другие языки по необходимости -->
+                              </ul>
+                              
+                              </div>
+                          </div>
+                      </li>
+                      <li>
+                          <button id="toggleButton" class="flex items-center">
+                              <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+                              <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+                          </button>
+                      </li>
+                  </ul>
+              </div>
+
+              <ul class="menu">
+                  <li class="item ">
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li class="item">
+                      <a href="about.html">About</a>
+                  </li>
+                  <li class="item">
+                      <a href="contacts.html">Contacts</a>
+                  </li>
+                  <li class="item">
+                      <a href="#">Сatalog</a>
+                  </li>
+                  <li class="item active">
+                      <a href="faq.html">FAQ</a>
+                  </li>
+              </ul>
+
+              <div class="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+          </nav>
+      </div>
+  </header>
+    <!-- =============== END HEADER ===============-->
+
+    <!-- ================== PAGE ==================-->
+    <main>
+        <div class="container-faq">
+            <h1>Frequently Asked Questions</h1>
+            <div class="space-20px"></div>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Why is the sky blue?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Why is the sky blue?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <br>
+
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <!-- ================ END PAGE ================-->
+
+    <!-- ================= FOOTER =================-->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-h3">Brilliant Home</h3>
+            <div class="footer-menu">
+                <hr>
+                <ul class="f-menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contacts.html">Contact</a></li>
+                  <li><a href="#">Сatalog</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus.
+            </p>
+            <div class="flex-center">
+                <i class="fa fa-github fa-4x icon-3d"></i>
+                  <i class="fa fa-twitter fa-4x icon-3d"></i>
+                  <i class="fa fa-facebook fa-4x icon-3d"></i>
+                  <i class="fa fa-instagram fa-4x icon-3d"></i>
+              </div>
+        </div>
+        <hr>
+        <div class="footer-bottom ">
+            <p>copyright &copy; <a href="#">Emeteus</a>  </p>
+        </div>
+
+    </footer>
+    <!-- =============== END FOOTER ===============-->
+
+
+    <script defer src="js/header.js"></script>
+    <script src="js/faq-conteiner.js"></script>
+    <script src="js/dark.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/login.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrilliantHome|About</title>
+    <!--=============== ICO ===============-->
+    <link rel="icon" type="ICO" sizes="32x32" href="img/logo/ico.png">
+    <link rel="icon" type="ICO" sizes="16x16" href="img/logo/ico.png">
+    <link rel="apple-touch-icon" type="ICO" sizes="180x180" href="img/logo/ico.png">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/css-contacts/header.css">
+    <link rel="stylesheet" href="css/css-contacts/dark.css"> 
+    <link rel="stylesheet" href="css/css-contacts/space.css">
+    <link rel="stylesheet" href="css/css-contacts/button.css">
+    <link rel="stylesheet" href="css/css-contacts/main.css">
+    <link rel="stylesheet" href="css/css-contacts/footer.css">
+    <link rel="stylesheet" href="css/css-contacts/contact.css">
+    <link rel="stylesheet" href="css/css-contacts/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+</head>
+<body>
+    <!-- ================= HEADER =================-->
+    <header class="header dark-head">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__login">
+                    <ul class="flex items-center">
+                        <li>
+
+                          <div class="dropdown" id="loginDropdown">
+                            <button class="login-button-link" onclick="toggleDropdown()">
+                                <img src="img/svg/login.svg" alt="Login" class="login-icon white-icon">
+                            </button>
+                            <div class="login-dropdown-content" id="dropdownContent">
+
+                                <a href="#" onclick="registerAction()">
+                                    <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
+                                    <span class="dark-lista">Login | Register</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        </li>
+                        <li>
+                            <div class="language-dropdown">
+                                <button id="languageButton" class="flex items-center white-icon">
+                                    <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+                                </button>
+                                <div class="language-list dark-list">
+                                  <ul class="listul">
+                                    <li class="listli"><a href="#" onclick="changeLanguage('en')" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
+                                    <li class="listli"><a href="#" onclick="changeLanguage('es')" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+                                    <!-- Добавьте другие языки по необходимости -->
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <button id="toggleButton" class="flex items-center">
+                                <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+                                <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="menu">
+                    <li class="item ">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="item">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="item active">
+                        <a href="contacts.html">Contacts</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Сatalog</a>
+                    </li>
+                    <li class="item">
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- =============== END HEADER ===============-->
+
+    <!-- ================== PAGE ==================-->
+    <main>
+        <h1>Contact Us</h1>
+        <p class="under-text">Feel free get in touch with us...</p>
+        <div class="space-100px"></div>
+
+        <div class="container">
+            <div class="box box-dark">
+                <br>
+                <img src="img/svg/mobil.svg" alt="map-pin" class="img-map color-dark">
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>Tel: +38(063)592-33-65</p>
+                <br>
+                <p>Fax: +38(044)248-15-90</p>
+                <br>
+                <p>Email: brillianhome@gmail.com</p>
+
+            </div>
+            <div class="box box-dark">
+                <br>
+                <img src="img/svg/map-pin.svg" alt="map-pin" class="img-map color-dark">
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>Adress: Antonovicha 15A</p>
+                <br>
+                <p>Office: 4th floor 248 room</p>
+                <br>
+                <p>Tel: +38(063)592-33-65</p>
+            </div>
+            <div class="box box-dark">
+                <br>
+            <img src="img/svg/inbox.svg" alt="map-pin" class="img-map color-dark">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Tel: +38(063)592-33-65</p>
+            <br>
+            <p>Fax: +38(044)248-15-90</p>
+            <br>
+            <p>Email: brillianhome@gmail.com</p>
+            </div>
+        </div>
+
+        
+  <!-- <div class="body">
+    <section class="main-container ">
+        <div id="info-container">
+            <h2>Информация</h2>
+            <p>Дополнительные детали и описание места находятся здесь.</p>
+        </div>
+        
+        <iframe src="css/css-contacts/map.html" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</div> -->
+<section class="space-50px"></section>
+<div class="line dark-line">Choose the design you like best</div>
+<section class="space-20px"></section>
+
+
+<div class="body">
+    <section class="main-container main-container-dark">
+        <div id="map-container" style="width: 800px; height: 600px;"></div>
+        <div id="info-container">
+            <h2>Информация</h2>
+            <p>Дополнительные детали и описание места находятся здесь.</p>
+        </div>
+    </section>
+</div>
+<section class="space-20px"></section>
+
+    <!-- ================ END PAGE ================-->
+
+    <!-- ================= FOOTER =================-->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-h3">Brilliant Home</h3>
+            <div class="footer-menu">
+                <hr>
+                <ul class="f-menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contacts.html">Contact</a></li>
+                  <li><a href="#">Сatalog</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus.
+            </p>
+            <div class="flex-center">
+                <i class="fa fa-github fa-4x icon-3d"></i>
+                  <i class="fa fa-twitter fa-4x icon-3d"></i>
+                  <i class="fa fa-facebook fa-4x icon-3d"></i>
+                  <i class="fa fa-instagram fa-4x icon-3d"></i>
+              </div>
+        </div>
+        <hr>
+        <div class="footer-bottom ">
+            <p>copyright &copy; <a href="#">Emeteus</a>  </p>
+        </div>
+    </footer>
+    <!-- =============== END FOOTER ===============-->
+
+
+    <script defer src="js/header.js"></script>
+    <script src="js/dark.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="js/login.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABoS1YkzeJNQsAQP_co0K7p7AB1IkpCTk&callback=initMap"></script>
+</body>
+</html>

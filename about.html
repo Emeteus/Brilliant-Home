@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrilliantHome|About</title>
+    <!--=============== ICO ===============-->
+    <link rel="icon" type="ICO" sizes="32x32" href="img/logo/ico.png">
+    <link rel="icon" type="ICO" sizes="16x16" href="img/logo/ico.png">
+    <link rel="apple-touch-icon" type="ICO" sizes="180x180" href="img/logo/ico.png">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/css-about/header.css">
+    <link rel="stylesheet" href="css/css-about/page_about.css">
+    <link rel="stylesheet" href="css/css-about/dark.css"> 
+    <link rel="stylesheet" href="css/css-about/pop-out.css">
+    <link rel="stylesheet" href="css/css-about/space.css">
+    <link rel="stylesheet" href="css/css-about/button.css">
+    <link rel="stylesheet" href="css/css-about/footer.css">
+    <link rel="stylesheet" href="css/css-about/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- ================= HEADER =================-->
+    <header class="header dark-head">
+      <div class="container">
+          <nav class="nav">
+              <div class="nav__login">
+                  <ul class="flex items-center">
+                      <li>
+
+                        <div class="dropdown" id="loginDropdown">
+                          <button class="login-button-link" onclick="toggleDropdown()">
+                              <img src="img/svg/login.svg" alt="Login" class="login-icon white-icon">
+                          </button>
+                          <div class="login-dropdown-content" id="dropdownContent">
+
+                              <a href="#" onclick="registerAction()">
+                                  <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
+                                  <span class="dark-lista">Login | Register</span>
+                              </a>
+                          </div>
+                      </div>
+                      
+                      
+                      
+                      </li>
+                      <li>
+                          <div class="language-dropdown">
+                              <button id="languageButton" class="flex items-center white-icon">
+                                  <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+                              </button>
+                              <div class="language-list dark-list">
+                                <ul class="listul">
+                                  <li class="listli"><a href="#" onclick="changeLanguage('en')" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
+                                  <li class="listli"><a href="#" onclick="changeLanguage('es')" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+                                  <!-- Добавьте другие языки по необходимости -->
+                              </ul>
+                              
+                              </div>
+                          </div>
+                      </li>
+                      <li>
+                          <button id="toggleButton" class="flex items-center">
+                              <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+                              <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+                          </button>
+                      </li>
+                  </ul>
+              </div>
+
+              <ul class="menu">
+                  <li class="item ">
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li class="item active">
+                      <a href="about.html">About</a>
+                  </li>
+                  <li class="item">
+                      <a href="contacts.html">Contacts</a>
+                  </li>
+                  <li class="item">
+                      <a href="#">Сatalog</a>
+                  </li>
+                  <li class="item">
+                      <a href="faq.html">FAQ</a>
+                  </li>
+              </ul>
+
+              <div class="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+          </nav>
+      </div>
+  </header>
+    <!-- =============== END HEADER ===============-->
+
+    <!-- ================== PAGE ==================-->
+    <main>
+        <div class="space-50px"></div>
+
+        
+        <div class="about-container">
+            <div class="about-text">
+                <h2 class="about-h2">About</h2>
+                <p class="about-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie est. Fusce cursus ipsum fermentum est maximus, et tempor velit fringilla. Vivamus et consectetur augue. Phasellus pharetra maximus rutrum. Curabitur nec interdum tellus. Proin viverra ultrices purus, ut tempus nunc. Sed vitae ligula nec magna sagittis porttitor. Curabitur ultricies diam tellus, at ornare elit cursus non. Cras dignissim condimentum sapien, id suscipit lectus porta eget. Sed malesuada libero quis nunc elementum molestie. Sed ut rutrum ante. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi, atque dolores doloremque reprehenderit aut aliquid omnis vel quod a earum quis, quasi obcaecati quisquam vitae quas, placeat vero? Iste?
+                </p>
+                <p class="about-p"> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ultrices tellus. Aenean nulla lacus, vestibulum ac pretium non, volutpat id diam. Nunc rhoncus justo vestibulum, vulputate dolor quis, tempus nisi. Sed faucibus nunc ut enim efficitur blandit. In sed tortor dui. Sed vestibulum mi in purus egestas finibus. Donec facilisis ante ac dictum efficitur. Nunc interdum sem nunc, quis imperdiet neque interdum quis. Fusce tempor sapien quis nulla fermentum tristique. Vestibulum sollicitudin porttitor gravida.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie est. Fusce cursus ipsum fermentum est maximus, et tempor velit fringilla. Vivamus et consectetur augue. Phasellus pharetra maximus rutrum. Curabitur nec interdum tellus. Proin viverra ultrices purus, ut tempus nunc. Sed vitae ligula nec magna sagittis porttitor. Curabitur ultricies diam tellus, at ornare elit cursus non. Cras dignissim condimentum sapien, id suscipit lectus porta eget. Sed malesuada libero quis nunc elementum molestie. Sed ut rutrum ante. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi, atque dolores doloremque reprehenderit aut aliquid omnis vel quod a earum quis, quasi obcaecati quisquam vitae quas, placeat vero? Iste?
+                </p>
+            </div>
+            <!-- <div class="about-img dark-border">
+                <img src="img/bg/city.png" alt="City Image">
+            </div> -->
+        </div>
+
+            <div class="space-100px"></div> 
+
+            <div class="line dark-line">Choose the design you like best</div>
+
+            <div class="space-40px"></div> 
+
+        <div class="container-card">
+            <div class="card dark-kard">
+              <img src="img/person/bradley-mason.webp" alt="Person" class="card__image">
+              <p class="card__name">Валерій Романович</p>
+              <div class="grid-container">
+          
+                <div class="grid-child-posts">
+                  <!-- 305 Post -->
+                 Tel: +38(063)-592-33-65
+                </div>
+                <br>
+          
+                <div class="grid-child-followers">
+                  Email: abodemaxmod2002@gmail.com
+                </div>
+          
+              </div>
+              <ul class="social-icons social-icons-dark">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+              </ul>
+
+          
+            </div>
+            <div class="card dark-kard">
+              <img src="img/person/tiffany-lee.webp" alt="Person" class="card__image">
+              <p class="card__name">Катерина Євгенівна</p>
+              <div class="grid-container">
+          
+                <div class="grid-child-posts">
+                  Tel: +38(063)-592-33-65
+                </div>
+          <br>
+                <div class="grid-child-followers">
+                  Email: abodemaxmod2002@gmail.com
+                </div>
+          
+              </div>
+              <ul class="social-icons social-icons-dark">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+              </ul>
+
+            </div>
+            <div class="card dark-kard ">
+              <img src="img/person/jeremy-clark.webp" alt="Person" class="card__image">
+              <p class="card__name">Кравченко Владислав</p>
+              <div class="grid-container">
+          
+                <div class="grid-child-posts">
+                  Tel: +38(063)-592-33-65
+                </div>
+          <br>
+                <div class="grid-child-followers">
+                  Email: abodemaxmod2002@gmail.com
+                </div>
+          
+              </div>
+              <ul class="social-icons social-icons-dark">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="card dark-kard">
+                <img src="img/person/yasmine-harris.webp" alt="Person" class="card__image">
+                <p class="card__name">Юлія Андріївна</p>
+                <div class="grid-container">
+            
+                  <div class="grid-child-posts">
+                    Tel: +38(063)-592-33-65
+                  </div>
+            <br>
+                  <div class="grid-child-followers">
+                    Email: abodemaxmod2002@gmail.com
+                  </div>
+            
+                </div>
+                <ul class="social-icons social-icons-dark">
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+<!-- ============================================================================================== -->
+<div class="space-100px"></div>
+<!-- ============================================================================================== -->
+
+
+          
+
+
+    </main>
+    <!-- ================ END PAGE ================-->
+
+    <!-- ================= FOOTER =================-->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-h3">Brilliant Home</h3>
+            <div class="footer-menu">
+                <hr>
+                <ul class="f-menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contacts.html">Contact</a></li>
+                  <li><a href="#">Сatalog</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus.
+            </p>
+            <div class="flex-center">
+                <i class="fa fa-github fa-4x icon-3d"></i>
+                  <i class="fa fa-twitter fa-4x icon-3d"></i>
+                  <i class="fa fa-facebook fa-4x icon-3d"></i>
+                  <i class="fa fa-instagram fa-4x icon-3d"></i>
+              </div>
+        </div>
+        <hr>
+        <div class="footer-bottom ">
+            <p>copyright &copy; <a href="#">Emeteus</a>  </p>
+        </div>
+
+    </footer>
+    <!-- =============== END FOOTER ===============-->
+
+
+    <script src="js/header.js"></script>
+    <script defer src="js/dark.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/login.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>

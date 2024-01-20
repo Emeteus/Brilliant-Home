@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrilliantHome|Register</title>
+    <!--=============== ICO ===============-->
+    <link rel="icon" type="ICO" sizes="32x32" href="img/logo/ico.png">
+    <link rel="icon" type="ICO" sizes="16x16" href="img/logo/ico.png">
+    <link rel="apple-touch-icon" type="ICO" sizes="180x180" href="img/logo/ico.png">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/css-about/header.css">
+    <link rel="stylesheet" href="css/css-reg/dark.css">
+    <link rel="stylesheet" href="css/css-reg/button.css">
+    <link rel="stylesheet" href="css/css-reg/space.css">
+    <link rel="stylesheet" href="css/css-reg/reg.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy4LDFNl2kvBH8eVoFaF1+Gp8Q9hFfcdZj" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <!-- ================= HEADER =================-->
+    <header>
+
+        <button id="toggleButton" class="flex items-center">
+            <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+            <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+        </button>
+
+  </header>
+    <!-- =============== END HEADER ===============-->
+
+    <!-- ================== PAGE ==================-->
+<main>
+    <div class="container">
+
+        <form class="well form-horizontal" action="" method="post" id="contact_form">
+            <fieldset>
+    
+                <!-- Form Name -->
+                <legend>Contact Us Today!</legend>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">First Name</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="first_name" placeholder="First Name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Last Name</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="last_name" placeholder="Last Name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">E-Mail</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Phone</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                            <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- radio checks -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Do you have hosting?</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="hosting" value="yes" /> Yes
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="hosting" value="no" /> No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Address</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                            <input name="address" placeholder="Address" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">City</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                            <input name="city" placeholder="City" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">State</label>
+                    <div class="col-md-4 selectContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                            <select name="state" class="form-control selectpicker">
+                                <option value=" ">Please select your state</option>
+                                <option>Alabama</option>
+                                <!-- ... Ваш предыдущий код ... -->
+                                <option>Wyoming</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Zip Code</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                            <input name="zip" placeholder="Zip Code" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Website or domain name</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+                            <input name="website" placeholder="Website or domain name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- radio checks -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Do you have hosting?</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="hosting" value="yes" /> Yes
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="hosting" value="no" /> No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Text area -->
+    
+                <!-- Success message -->
+                <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+    
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-warning">Send <span class="glyphicon glyphicon-send"></span></button>
+                    </div>
+                </div>
+    
+            </fieldset>
+        </form>
+    </div>
+</main>
+    <!-- ================ END PAGE ================-->
+
+    <!-- ================= FOOTER =================-->
+    <footer>
+
+
+    </footer>
+    <!-- =============== END FOOTER ===============-->
+
+
+    <script defer src="js/header.js"></script>
+    <script src="js/reg.js"></script>
+    <script src="js/dark.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/login.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>

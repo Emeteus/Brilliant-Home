@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+
+
+footer {
+  position: absolute;
+  left: auto;
+  right: 0;
+  background: #111;
+  padding-top: 0%; /* Уменьшен верхний отступ */
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 40px; /* Уменьшен размер шрифта */
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 10px; /* Уменьшена высота строки */
+}
+
+.footer-content p {
+  max-width: 400px; /* Уменьшена максимальная ширина */
+  margin: 10px auto;
+  line-height: 24px; /* Уменьшена высота строки */
+  font-size: 12px; /* Уменьшен размер шрифта */
+  color: #cacdd2;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 2rem 0; /* Уменьшен отступ */
+}
+
+.socials li {
+  margin: 0 8px; /* Уменьшен отступ */
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid white;
+  padding: 4px; /* Уменьшено заполнение */
+  border-radius: 50%;
+}
+
+.socials a i {
+  font-size: 1rem; /* Уменьшен размер шрифта */
+  width: 16px; /* Уменьшена ширина */
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px; /* Уменьшен размер шрифта */
+  word-spacing: 1px; /* Уменьшено расстояние между словами */
+  text-transform: capitalize;
+  text-align: center; /* Выравниваем текст по центру */
+}
+
+
+.footer-bottom p a {
+  color: #ffb700;
+  font-size: 14px; /* Уменьшен размер шрифта */
+  text-decoration: none;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding-right: 8px; /* Уменьшено правое заполнение */
+  display: block;
+}
+
+.footer-menu ul li a {
+  color: #dbd4c2;
+  text-decoration: none;
+  font-size: 14px; /* Уменьшен размер шрифта */
+}
+
+.footer-menu ul li a:hover {
+  color: #ffb700;
+}
+
+@media (max-width:500px) {
+  .footer-menu ul {
+      display: flex;
+      margin-top: 8px; /* Уменьшен верхний отступ */
+      margin-bottom: 16px; /* Уменьшен нижний отступ */
+  }
+}
+
+.footer-h3{
+  font-family: 'Dancing Script', cursive;
+  font: optional;
+  font-size: 80px;
+}
+

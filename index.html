@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilliant Home</title>
+    <!--=============== ICO ===============-->
+    <link rel="icon" type="ICO" sizes="32x32" href="img/logo/ico.png">
+    <link rel="icon" type="ICO" sizes="16x16" href="img/logo/ico.png">
+    <link rel="apple-touch-icon" type="ICO" sizes="180x180" href="img/logo/ico.png">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/css-index/dark.css">
+    <link rel="stylesheet" href="css/css-index/header.css">
+    <link rel="stylesheet" href="css/css-index/style.css">
+    <link rel="stylesheet" href="css/css-index/main.css">
+    <link rel="stylesheet" href="css/css-index/page.css">
+    <link rel="stylesheet" href="css/css-index/space.css">
+    <link rel="stylesheet" href="css/css-index/button.css">
+    <link rel="stylesheet" href="css/css-index/footer.css">
+    <link rel="stylesheet" href="css/css-index/icons.css">
+    <link rel="stylesheet" href="css/css-index/language.css">
+    <link rel="stylesheet" href="css/css-index/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- =============== HEADER ===============-->
+    <header class="header dark-head">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__login">
+                    <ul class="flex items-center">
+                        <li>
+
+                          <div class="dropdown" id="loginDropdown">
+                            <button class="login-button-link" onclick="toggleDropdown()">
+                                <img src="img/svg/login.svg" alt="Login" class="login-icon white-icon">
+                            </button>
+                            <div class="login-dropdown-content" id="dropdownContent">
+
+                                <a href="reg.html">
+                                    <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
+                                    <span class="dark-lista">Login | Register</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        </li>
+                        <li>
+                            <div class="language-dropdown">
+                                <button id="languageButton" class="flex items-center white-icon">
+                                    <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+                                </button>
+                                <div class="language-list dark-list">
+                                  <ul class="listul">
+                                    <li class="listli"><a href="#" onclick="changeLanguage('en')" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
+                                    <li class="listli"><a href="#" onclick="changeLanguage('es')" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+                                    <!-- Добавьте другие языки по необходимости -->
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <button id="toggleButton" class="flex items-center">
+                                <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+                                <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="menu">
+                    <li class="item active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="item">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="item">
+                        <a href="contacts.html">Contacts</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Сatalog</a>
+                    </li>
+                    <li class="item">
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!--=============== END HEADER ============-->
+
+    <!--=============== PAGE ==================-->
+    <main>
+    
+      <div class="space-200px"></div>
+        <h1>Brilliant Home</h1>
+        <h5 class="under-text">Site where your home dream will come true</h5>
+        <br>
+        <br>
+        <br>
+          <div class="buttons">
+            <button class="btn-hover color-2 dark-button7">Home</button>
+          </div>
+
+        <div class="space-200px"></div>
+          <div class="line dark-line">Choose the design you like best</div>
+          <section id="content">
+            <!--=============== CARDS ==============-->
+            <div class="card dark-card">
+              <img class="card-img" src="img/interior/bohemian.png" />
+              <div class="title">
+                <h2>Bohemian design</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open dark-open" data-modal="modal2">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card dark-card">
+              <img class="card-img" src="img/interior/eclectic.png" />
+              <div class="title">
+                <h2>Eclectic design</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open dark-open" data-modal="modal3">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card dark-card">
+              <img class="card-img" src="img/interior/industrial.png" />
+              <div class="title">
+                <h2>Industrial design</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open dark-open" data-modal="modal4">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card dark-card">
+              <img class="card-img" src="img/interior/modern.png" />
+              <div class="title">
+                <h2>Modern design</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open dark-open" data-modal="modal5">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card dark-card">
+              <img class="card-img" src="img/interior/scandinavian.png" />
+              <div class="title">
+                <h2>Scandinavian design</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open dark-open" data-modal="modal6">more<ion-icon class="open-icon"name="open-outline"aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <!--=============== MODALS ==============-->
+     
+      
+            <div class="modal" id="modal2">
+              <div class="modal-content">
+                <div class="modal-header">Bohemian Design Interior<button class="modal-close">
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/interior/bohemian.png" alt="" />
+                  <ul class="modal-text">
+                    <li>
+                      Immerse yourself in the rich Bavarian culture with art
+                      exhibitions and demonstrations.
+                    </li>
+                    <li>
+                      Learn about the history and traditions of Oktoberfest through
+                      informative displays.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn-hover color-2 modal-close dark-button7">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal3">
+              <div class="modal-content">
+                <div class="modal-header">Eclectic Design Interior<button class="modal-close">
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/interior/eclectic.png" alt="" />
+                  <ul class="modal-text">
+                    <li>
+                      Shop for unique Bavarian souvenirs, clothing, and trinkets at
+                      our market stalls.
+                    </li>
+                    <li>
+                      Take home a piece of Oktoberfest to remember this incredible
+                      experience.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn-hover color-2 modal-close dark-button7">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal4">
+              <div class="modal-content">
+                <div class="modal-header">Industrial Design Interior
+                </div>
+                <div class="modal-body">
+                  <img src="img/interior/industrial.png" alt="" />
+                  <ul class="modal-text">
+                    <li>
+                      Indulge in mouthwatering German cuisine, from bratwurst and
+                      schnitzel to pretzels and sauerkraut.
+                    </li>
+                    <li>
+                      Experience the rich flavors of authentic Bavarian dishes
+                      prepared by skilled chefs.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn-hover color-2 modal-close dark-button7">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal5">
+              <div class="modal-content">
+                <div class="modal-header">Modern Design Interior<button class="modal-close">
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/interior/modern.png" alt="" />
+                  <ul class="modal-text"> 
+                    <li>
+                      Get your groove on with live traditional German bands and folk
+                      dancers.
+                    </li>
+                    <li>
+                      Expect a vibrant atmosphere filled with music, dancing, and
+                      cultural performances.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn-hover color-2 modal-close dark-button7">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal6">
+              <div class="modal-content">
+                <div class="modal-header">Scandinavian Design Interior<button class="modal-close">
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/interior/scandinavian.png" alt="" />
+                  <ul class="modal-text">
+                    <li>
+                      Participate in traditional Oktoberfest games, including
+                      stein-holding contests and bratwurst-eating competitions.
+                    </li>
+                    <li>
+                      Bring the whole family; we have activities for all ages,
+                      including a dedicated kids' zone.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn-hover color-2 modal-close dark-button7">Close</button>
+                </div>
+              </div>
+            </div>
+          </section>
+  
+      <!-- <div>
+        <p class="text-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam natus nisi, aliquid expedita ratione eligendi, ipsa inventore asperiores distinctio iste cupiditate nostrum reiciendis vero. Ad voluptatum tempora nostrum accusantium?
+          <br>
+          <a href="#content" class="button explore">Explore</a>
+        </p>
+    </div> -->
+
+
+     <!-- <div class="line dark-line">Choose the design you like best</div>       -->
+
+
+    <div class="box" id="homeb">
+      <div class="mini-box dark-box">
+        <h2 class="h2text">Home Brilliant</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et vulputate mauris. Praesent in eros blandit mi rhoncus malesuada. Integer non felis molestie lacus ultrices sollicitudin a sit amet odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eleifend tempus justo a fringilla. In tempus augue eu ex pretium vulputate vulputate a risus. Pellentesque quis imperdiet enim. Donec blandit urna at pharetra imperdiet. Aenean interdum aliquam quam, id posuere diam scelerisque et. Vestibulum finibus, quam vitae condimentum cursus, enim lorem imperdiet nisl, non lacinia diam mauris eget ex. Aenean ac leo non tellus fringilla auctor vitae sit amet magna. In efficitur sit amet dolor tincidunt gravida. Integer a pharetra nunc, quis cursus turpis. Donec eget aliquet eros.</p>
+        <div class="buttons">
+          <button class="btn-hover color-2 modal-close dark-button7">Close</button>
+        </div>
+      </div>
+    </div>
+
+<div class="space-100px"></div>
+
+<div class="line dark-line">Choose the design you like best</div>  
+
+<div class="space-100px"></div>
+
+    <div class="box2">
+      <h2 class="h2text-box2">Lorem ipsum!</h2>
+      <p class="text-pbox">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et vulputate mauris. Praesent in eros blandit mi rhoncus malesuada. Integer non felis molestie lacus ultrices sollicitudin a sit amet odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eleifend tempus justo a fringilla. In tempus augue eu ex pretium vulputate vulputate a risus. Pellentesque quis imperdiet enim. Donec blandit urna at pharetra imperdiet. Aenean interdum aliquam quam, id posuere diam scelerisque et. Vestibulum finibus, quam vitae condimentum cursus, enim lorem imperdiet nisl, non lacinia diam mauris eget ex. Aenean ac leo non tellus fringilla auctor vitae sit amet magna. In efficitur sit amet dolor tincidunt gravida. Integer a pharetra nunc, quis cursus turpis. Donec eget aliquet eros.
+      </p>
+    </div>
+
+<div class="space-20px"></div>
+
+    <div class="box3">
+      <h2 class="h2text-box3">Lorem ipsum!</h2>
+      <p class="text-pbox">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et vulputate mauris. Praesent in eros blandit mi rhoncus malesuada. Integer non felis molestie lacus ultrices sollicitudin a sit amet odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eleifend tempus justo a fringilla. In tempus augue eu ex pretium vulputate vulputate a risus. Pellentesque quis imperdiet enim. Donec blandit urna at pharetra imperdiet. Aenean interdum aliquam quam, id posuere diam scelerisque et. Vestibulum finibus, quam vitae condimentum cursus, enim lorem imperdiet nisl, non lacinia diam mauris eget ex. Aenean ac leo non tellus fringilla auctor vitae sit amet magna. In efficitur sit amet dolor tincidunt gravida. Integer a pharetra nunc, quis cursus turpis. Donec eget aliquet eros.
+      </p>
+    </div>
+
+<div class="space-20px"></div>
+
+    <div class="box2">
+      <h2 class="h2text-box2">Lorem ipsum!</h2>
+      <p class="text-pbox">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et vulputate mauris. Praesent in eros blandit mi rhoncus malesuada. Integer non felis molestie lacus ultrices sollicitudin a sit amet odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eleifend tempus justo a fringilla. In tempus augue eu ex pretium vulputate vulputate a risus. Pellentesque quis imperdiet enim. Donec blandit urna at pharetra imperdiet. Aenean interdum aliquam quam, id posuere diam scelerisque et. Vestibulum finibus, quam vitae condimentum cursus, enim lorem imperdiet nisl, non lacinia diam mauris eget ex. Aenean ac leo non tellus fringilla auctor vitae sit amet magna. In efficitur sit amet dolor tincidunt gravida. Integer a pharetra nunc, quis cursus turpis. Donec eget aliquet eros.
+      </p>
+    </div>
+
+
+
+    <div class="space-100px"></div>
+ 
+    <div class="box4" id="homeb">
+      <div class="mini-box4 dark-box">
+        <h2 class="h2text">Home Brilliant</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et vulputate mauris. Praesent in eros blandit mi rhoncus malesuada. Integer non felis molestie lacus ultrices sollicitudin a sit amet odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eleifend tempus justo a fringilla. In tempus augue eu ex pretium vulputate vulputate a risus. Pellentesque quis imperdiet enim. Donec blandit urna at pharetra imperdiet. Aenean interdum aliquam quam, id posuere diam scelerisque et. Vestibulum finibus, quam vitae condimentum cursus, enim lorem imperdiet nisl, non lacinia diam mauris eget ex. Aenean ac leo non tellus fringilla auctor vitae sit amet magna. In efficitur sit amet dolor tincidunt gravida. Integer a pharetra nunc, quis cursus turpis. Donec eget aliquet eros.</p>
+        <div class="buttons">
+          <button class="btn-hover color-2 modal-close dark-button7">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-100px"></div>
+
+
+    </main>
+
+    <!--=============== END PAGE ==============-->
+
+    <!--=============== FOOTER ================-->
+    <footer>
+      <div class="footer-content">
+          <h3 class="footer-h3">Brilliant Home</h3>
+          <div class="footer-menu">
+              <hr>
+              <ul class="f-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="#">Сatalog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus.
+          </p>
+          <div class="flex-center">
+              <i class="fa fa-github fa-4x icon-3d"></i>
+                <i class="fa fa-twitter fa-4x icon-3d"></i>
+                <i class="fa fa-facebook fa-4x icon-3d"></i>
+                <i class="fa fa-instagram fa-4x icon-3d"></i>
+            </div>
+      </div>
+      <hr>
+      <div class="footer-bottom ">
+          <p>copyright &copy; <a href="#">Emeteus</a>  </p>
+      </div>
+  </hr>
+
+  </footer>
+    <!--=============== END FOOTER ============-->
+
+    <script src="js/header.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/dark.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/language.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>

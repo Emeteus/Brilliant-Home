@@ -1,0 +1,70 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden ;
+}
+
+.main-container {
+    display: flex;
+    background-color: #f0f8ff;/* Цвет красного блока */
+    width: 80%; /* Ширина красного блока, например, 80% от ширины экрана */
+    border: 3px solid rgb(211, 1, 19);
+    border-radius: 40px;
+    overflow: hidden ;
+}
+
+#map-container {
+    flex: 1;
+    height: 400px; /* Высота карты */
+    overflow: hidden;
+    border-bottom-left-radius: 40px !important; /* Добавьте это свойство для скругления углов карты */
+    border-right: 2px solid rgb(211, 1, 19);
+}
+
+
+#info-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Выравнивание текста по центру */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden ;
+}
+
+/* Media query for screens with a width of 800px or less */
+@media screen and (max-width: 800px) {
+    .main-container {
+        width: 100%; /* Adjust the width to fit the entire screen */
+    }
+
+    #info-container {
+        order: 2; /* Change the order to display #info-container below #map-container */
+    }
+
+    #map-container {
+        height: 300px; /* Reduce the height of the map on smaller screens */
+        order: 1; /* Change the order to display #map-container above #info-container */
+    }
+}
+
+
+.line{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 18, 76, 0.5);
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    /* border-radius: 100px;
+    border: 2px solid rgb(241, 144, 109);
+    margin-left: 10%;
+    margin-right: 10%; */
+    border-top: 2px solid rgb(211, 1, 19); 
+    border-bottom: 2px solid rgb(211, 1, 19); 
+    
+  }
