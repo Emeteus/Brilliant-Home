@@ -13,7 +13,7 @@ body {
 
 body.dark {
   background-image: url('theme/bg_black.png');
-  background-color: #050507;
+  background-color: rgb(54, 53, 57);
   color: white;
   transition: background 0.2s linear;
   background-attachment: fixed;

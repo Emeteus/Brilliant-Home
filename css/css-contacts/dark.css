@@ -4,6 +4,7 @@
 
 body {
   background-image: url('theme/bg_white.png');
+  background-color: #d6cfbd;
   overflow-x: hidden;
   transition: background 0.2s linear;
   background-attachment: fixed;
@@ -12,12 +13,12 @@ body {
 
 body.dark {
   background-image: url('theme/bg_black.png');
+  background-color: rgb(54, 53, 57);
   color: white;
   transition: background 0.2s linear;
   background-attachment: fixed;
 
 }
-
 body.dark h2 {
   color: white;
 }
