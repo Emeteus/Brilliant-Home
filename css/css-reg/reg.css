@@ -5,6 +5,11 @@
     margin-top: 50px;
 }
 
+.btn-center{
+    margin: 0 auto;
+    display: block;
+}
+
 .well {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -51,22 +56,126 @@ legend {
     margin-top: 10px;
 }
 
-.alert {
-    display: none;
+
+form
+{
+    margin: auto;
+    width: 52%;
+    padding: 15px;
+    border: 2px solid rgb(211, 1, 19);
+    background-color: rgba(43, 18, 76, 0.5);
+    border-radius: 40px;
+    height: auto;
+
+}
+
+form .form-group 
+{
+    line-height: 2.3;
+}
+
+form .form-group , .form-check
+{
     margin-top: 15px;
-    border-radius: 5px;
 }
 
-.btn-warning {
-    background-color: #ffc107;
-    color: #fff;
-    border: 1px solid #ffc107;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
+
+form .form-group label
+{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
 }
 
-.btn-warning:hover {
-    background-color: #ffcd38;
-    border: 1px solid #ffcd38;
+form .form-control option
+{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+form section
+{
+    margin-bottom: 28px;
+}
+
+form section .AsarcheviShekitxva
+{
+    color:rgb(255, 255, 255);
+    margin-top: 20px !important;
+    margin-bottom: -6px;
+    font-size: 20px;
+}
+
+form section .form-check
+{
+    margin-bottom: -14px;
+}
+
+.Shemoxaze {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Shemoxaze .form-check {
+    width: 48%; /* Ширина каждого столбика - 48%, чтобы оставить небольшой отступ между столбиками */
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+form section .form-check .form-check-label
+{
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 800px) {
+
+    .form-row {
+        flex-direction: column; /* Устанавливаем отображение в столбец на мобильных устройствах */
+    }
+
+    .container {
+        margin-top: 30px; /* Пример изменения отступа сверху */
+    }
+
+    form {
+        width: 90%; /* Пример изменения ширины формы */
+    }
+
+    .well {
+        padding: 15px; /* Пример изменения отступа внутри блока .well */
+    }
+
+    .input-group-addon,
+    .form-control {
+        border-radius: 5px; /* Пример изменения радиуса границы для .input-group-addon и .form-control */
+    }
+
+    form section .AsarcheviShekitxva {
+        font-size: 16px; /* Пример изменения размера шрифта */
+    }
+
+    form .form-group label
+    {
+        font-size: 16px;
+    }
+
+    .Shemoxaze {
+        display: block; /* Устанавливаем отображение блока в столбец */
+    }
+
+    .form-check {
+        width: 100%; /* Делаем чекбоксы полной ширины на мобильных устройствах */
+        box-sizing: border-box; /* Обеспечиваем, чтобы отступы не увеличивали ширину элемента */
+        margin-bottom: 10px; /* Пример отступа между чекбоксами */
+    }
 }

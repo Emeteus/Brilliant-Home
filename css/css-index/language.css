@@ -17,7 +17,7 @@
     visibility: hidden;
     transform: translateY(-10px);
     transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
-    border: 2px solid rgb(211, 1, 19);;
+    border: 2px solid rgb(211, 1, 19);
 }
 
 .language-list.active {
