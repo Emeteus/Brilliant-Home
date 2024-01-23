@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 #success_message{ display: none;}
 
 
 .container {
     margin-top: 50px;
+}
+
+.white-i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.red-i{
+    color: #f00606;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+body.dark .red-i{
+    color: rgb(241, 144, 109); ;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .btn-center{
@@ -108,6 +128,13 @@ form section .AsarcheviShekitxva
 form section .form-check
 {
     margin-bottom: -14px;
+}
+
+.h1{
+    font-family: 'Dancing Script', bold;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
 }
 
 .Shemoxaze {

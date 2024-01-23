@@ -4,8 +4,8 @@ const moonIcon = document.querySelector('.moon-icon');
 const sunIcon = document.querySelector('.sun-icon');
 const footer = document.querySelector('footer');
 
-// Check saved theme in localStorage on page load
-const savedTheme = localStorage.getItem('theme');
+// Check saved theme in cookies on page load
+const savedTheme = getCookie('theme');
 
 // Apply dark theme styles by default
 applyDarkTheme();
@@ -21,10 +21,10 @@ toggleButton.addEventListener('click', () => {
 
     if (body.classList.contains('dark')) {
         applyDarkTheme();
-        localStorage.setItem('theme', 'dark');
+        setCookie('theme', 'dark', 365); // Set the cookie to expire in 365 days
     } else {
         applyLightTheme();
-        localStorage.setItem('theme', 'light');
+        setCookie('theme', 'light', 365);
     }
 });
 
@@ -44,4 +44,29 @@ function applyLightTheme() {
     sunIcon.style.display = 'none';
     footer.style.background = ''; // Reset to default or specify the light theme background color
     footer.style.color = ''; // Reset to default or specify the light theme text color
+}
+
+// Helper function to set a cookie
+function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
+
+// Helper function to get the value of a cookie by name
+function getCookie(name) {
+    const cname = name + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const ca = decodedCookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(cname) === 0) {
+            return c.substring(cname.length, c.length);
+        }
+    }
+    return "";
 }
