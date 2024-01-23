@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
 
 body{
@@ -19,9 +19,11 @@ body{
 
 } */
 
+
+
 h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 80px;
     line-height: 65px;
     text-align: center;
     max-width: 60%;
@@ -36,15 +38,17 @@ h1 {
 
 
 .under-text {
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
     text-align: center;
     margin: 0 auto;
+    letter-spacing: 6px;
+
 }
 
 
 .line{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif;
     letter-spacing: 4px;
     color: rgb(255, 255, 255);
     background-color: rgba(43, 18, 76, 0.5);
@@ -159,7 +163,7 @@ h1 {
 }
 
 .h2text {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif;
     font-size: 45px;
     text-align: center;
     margin-bottom: 30px;
@@ -216,7 +220,7 @@ h1 {
 }
 
 .h2text {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif;
     font-size: 45px;
     text-align: center;
     margin-bottom: 30px;

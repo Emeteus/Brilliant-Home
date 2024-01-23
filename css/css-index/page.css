@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Young+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 
 
@@ -157,7 +157,7 @@ a:active {
 }
 
 .modal-open {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   border-radius: 30px;
@@ -232,7 +232,7 @@ body.prevent-background-scroll {
 }
 
 .modal-header {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
   text-align: center;
   color: black;
   position: relative;

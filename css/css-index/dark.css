@@ -71,7 +71,6 @@ body.dark .dark-card{
     0 22.3px 17.9px rgba(0, 0, 0, 0.05);
 }
 body.dark .dark-open{
-  font-family: 'Dancing Script', cursive;
   text-transform: uppercase;
   font-size: 30px;
   border-radius: 30px;
@@ -95,7 +94,6 @@ body.dark .dark-box{
 }
 
 body.dark .dark-line{
-  font-family: 'Dancing Script', cursive;
   font-weight: 700;
   color: rgb(255, 255, 255);
   background-color: rgba(43, 18, 76, 0.5);

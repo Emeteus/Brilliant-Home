@@ -8,6 +8,10 @@ body.hidden {
   
 }
 
+.text-white{
+  color: #fff;
+}
+
 a {
   color: #fffefe;
   text-decoration: none;
@@ -109,7 +113,8 @@ a {
   opacity: 1;
 }
 .header.mobile .menu .item {
-  transform: translatex(0);
+  transform: translatex(0) !important;
+  
 }
 .header.mobile .menu .item:nth-child(1) {
   transition: transform 1s 0.08s cubic-bezier(0.29, 1.4, 0.44, 0.96);
