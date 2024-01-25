@@ -24,34 +24,43 @@
 </head>
 <body>
     <!-- ================= HEADER =================-->
-    <header>
-
-        <button id="toggleButton" class="flex items-center">
-            <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
-            <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
-        </button>
-<!-- 
-        <button id="toggleButton" class="flex items-center">
-            <a href="index.html"><img src="img/svg/home.svg" alt="Home Icon" class="white-icon" style="width: 24px; height: 24px;"></a>
-        </button> -->
-
-  </header>
+    <header>        
+      
+        <button id="toggleButton" class="flex items-center invert">
+          <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+          <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+      </button>
+          <div class="language-dropdown">
+            <button id="languageButton" class="flex items-center white-icon invert">
+                <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+            </button>
+            <div class="language-list dark-list">
+                <ul class="listul">
+                    <li class="listli"><a href="#" data-lang-code="en" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
+                    <li class="listli"><a href="#" data-lang-code="ua" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+                </ul>
+            </div>
+        </div>
+    
+    
+    
+      </header>
     <!-- =============== END HEADER ===============-->
 
     <!-- ================== PAGE ==================-->
 <main>
             
                 <form >
-                <h1 class="h1">Login</h1>
+                <h1 class="h1" data-lang-id="logIn">Login in to an existing account</h1>
 
                     <div class="form-group">
-                      <label for="ExampleEmail">Email</label>
-                      <input type="email" class="form-control" name="Email" id="ExampleEmail" aria-describedby="emailHelp" placeholder="Enter Email">
+                      <label for="ExampleEmail" data-lang-id="email">Email</label>
+                      <input type="email" class="form-control" name="Email" id="ExampleEmail" aria-describedby="emailHelp" placeholder="Enter Email" data-lang-id="email_placeholder">
                     </div>
   
                     <div class="form-group">
-                      <label for="ExamplePassword">Password</label>
-                      <input type="password" class="form-control" name="Password" id="ExamplePassword" placeholder="Enter Password">
+                      <label for="ExamplePassword" data-lang-id="password">Password</label>
+                      <input type="password" class="form-control" name="Password" id="ExamplePassword" placeholder="Enter Password" data-lang-id="password_placeholder">
                     </div>
 
                       <section class="space-40px"></section>
@@ -68,11 +77,11 @@
                       <section class="space-40px"></section>
 
 
-                      <button  type="submit" class="btn-hover color-2 dark-button7 btn-center">Login</button>
+                      <button  type="submit" class="btn-hover color-2 dark-button7 btn-center" data-lang-id="logb">Login</button>
 
                       <section class="space-40px"></section>
 
-                      <p class="center white-i">У ваc нету аккаунта то: <a href="reg.html" class="red-i">Зарегестрируйся!</a></p>
+                      <p class="center white-i"><span data-lang-id="notacc">You don't have an account then:</span> <a href="reg.html" class="red-i"><span data-lang-id="reg">Register!</span></a></p>
 
                   </form>
 
@@ -90,6 +99,8 @@
     <script src="js/reg.js"></script>
     <script src="js/dark.js"></script>
     <script src="js/page.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/langarr.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  

@@ -12,6 +12,17 @@ footer {
   color: #fff;
 }
 
+.privacy{
+  background: transparent;
+  font-size: 12px;
+  color: #7440b8;
+}
+
+.privacy:hover{
+  color: #ffffff;
+
+}
+
 .footer-content {
   display: flex;
   align-items: center;

@@ -241,3 +241,12 @@ h1 {
     }
 }
 
+.ptext{
+   font-size: 20px; 
+}
+
+.pcolor{
+    color: rgb(211, 1, 19);
+    font-size: 30px; 
+}
+

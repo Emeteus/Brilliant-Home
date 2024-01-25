@@ -24,12 +24,25 @@
 </head>
 <body>
     <!-- ================= HEADER =================-->
-    <header>
-
-        <button id="toggleButton" class="flex items-center">
-            <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
-            <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+    <header>        
+      
+    <button id="toggleButton" class="flex items-center invert">
+      <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+      <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+  </button>
+      <div class="language-dropdown">
+        <button id="languageButton" class="flex items-center white-icon invert">
+            <img src="img/svg/lang.svg" alt="Language" class="login-icon">
         </button>
+        <div class="language-list dark-list">
+            <ul class="listul">
+                <li class="listli"><a href="#" data-lang-code="en" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
+                <li class="listli"><a href="#" data-lang-code="ua" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+            </ul>
+        </div>
+    </div>
+
+
 
   </header>
     <!-- =============== END HEADER ===============-->
@@ -38,7 +51,7 @@
 <main>
             
                 <form >
-                  <h1 class="h1">Register</h1>
+                  <h1 class="h1" data-lang-id="register">Register</h1>
                   <section class="space-40px"></section>
 
                   <section class="center">             
@@ -50,30 +63,30 @@
                     </ul> 
                 </section>
                   <div class="form-row">
-                    <div class="form-group col-md-5">
-                        <label for="ExampleName">Name</label>
-                        <input type="text" class="form-control" name="Name" id="ExampleName" aria-describedby="emailHelp" placeholder="Enter Name">
+                    <div class="form-group col-md-5" >
+                        <label for="ExampleName"><span data-lang-id="name">Name</span></label>
+                        <input type="text" class="form-control" name="Name" id="ExampleName" aria-describedby="emailHelp" placeholder="Name" data-lang-id="name_placeholder">
                     </div>
                     <div class="form-group col-md-5">
-                        <label for="ExampleLastName">Last Name</label>
-                        <input type="text" class="form-control" name="LastName" id="ExampleLastName" placeholder="Enter Last Name">
+                        <label for="ExampleLastName"><span data-lang-id="lastname">Last Name:</span></label>
+                        <input type="text" class="form-control" name="LastName" id="ExampleLastName" placeholder="Last Name" data-lang-id="lastname_placeholder">
                     </div>
                 </div>
   
 
                     <div class="form-group">
-                      <label for="ExampleEmail">Phone Number</label>
-                      <input type="tel" class="form-control" name="phone" id="ExamplePhone" aria-describedby="emailHelp" placeholder="Phone Number">
+                      <label for="ExampleEmail"><span data-lang-id="phone">Phone Number:</span></label>
+                      <input type="tel" class="form-control" name="phone" id="ExamplePhone" aria-describedby="emailHelp" placeholder="Number" data-lang-id="number_placeholder">
                     </div>
 
                     <div class="form-group">
-                      <label for="ExampleEmail">Email</label>
-                      <input type="email" class="form-control" name="Email" id="ExampleEmail" aria-describedby="emailHelp" placeholder="Enter Email">
+                      <label for="ExampleEmail"><span data-lang-id="email">Email</span></label>
+                      <input type="email" class="form-control" name="Email" id="ExampleEmail" aria-describedby="emailHelp" placeholder="Email" data-lang-id="email_placeholder">
                     </div>
   
                     <div class="form-group">
-                      <label for="ExamplePassword">Password</label>
-                      <input type="password" class="form-control" name="Password" id="ExamplePassword" placeholder="Enter Password">
+                      <label for="ExamplePassword"><span data-lang-id="password">Password</span></label>
+                      <input type="password" class="form-control" name="Password" id="ExamplePassword" placeholder="Password" data-lang-id="password_placeholder">
                     </div>
 
 
@@ -81,11 +94,11 @@
 
     
                       <div class="form-group">
-                        <label for="exampleFormControlSelect1">What is your gender ?</label>
+                        <label for="exampleFormControlSelect1"><span data-lang-id="gender">What is your gender?</span></label>
                         <select class="form-control" id="exampleFormControlSelect1">
-                          <option  disabled >Select your gender</option>
-                          <option>Male</option>
-                          <option>Female</option>
+                          <option  disabled data-lang-id="gen">Select your gender:</option>
+                          <option data-lang-id="male">Male</option>
+                          <option data-lang-id="female">Female</option>
                         </select>
                       </div>
     
@@ -94,73 +107,68 @@
                   
     
                       <div class="form-group  ">
-                        <label for="exampleFormControlSelect2"> What is your favorite feature of freeCodeCamp?</label>
+                        <label for="exampleFormControlSelect2"><span data-lang-id="city">Which city are you from ?</span></label>
                         <select class="form-control" id="exampleFormControlSelect2">
-                          <option  disabled >Select an Option</option>
-                          <option >Challenges</option>
-                          <option>Projects</option>
-                          <option>Community</option>
-                          <option>Open Source</option>
+                          <option  disabled >Select your city:</option>
+                          <option data-lang-id="Kiev">Kiev</option>
+                          <option data-lang-id="Kharkiv">Kharkiv</option>
+                          <option data-lang-id="Odessa">Odessa</option>
+                          <option data-lang-id="Kiev">Kiev</option>
+                          <option data-lang-id="Kharkiv">Kharkiv</option>
+                          <option data-lang-id="Odessa">Odessa</option>
+                          <option data-lang-id="Dnipro">Dnipro</option>
+                          <option data-lang-id="Donetsk">Donetsk</option>
+                          <option data-lang-id="Lviv">Lviv</option>
+                          <option data-lang-id="Zaporizhzhia">Zaporizhzhia</option>
+                          <option data-lang-id="Kryvyi Rih">Kryvyi Rih</option>
+                          <option data-lang-id="Sevastopol">Sevastopol</option>
+                          <option data-lang-id="Mykolaiv">Mykolaiv</option>
+                          <option data-lang-id="Mariupol">Mariupol</option>
+                          <option data-lang-id="Luhansk">Luhansk</option>
+                          <option data-lang-id="Vinnytsia">Vinnytsia</option>
+                          <option data-lang-id="Makiivka">Makiivka</option>
+                          <option data-lang-id="Simferopol">Simferopol</option>
+                          <option data-lang-id="Chernihiv">Chernihiv</option>
+                          <option data-lang-id="Poltava">Poltava</option>
+                          <option data-lang-id="Kherson">Kherson</option>
+                          <option data-lang-id="Khmelnytskyi">Khmelnytskyi</option>
+                          <option data-lang-id="Cherkasy">Cherkasy</option>
+                          <option data-lang-id="Chernivtsi">Chernivtsi</option>
+                          <option data-lang-id="Zhytomyr">Zhytomyr</option>
+                          <option data-lang-id="Sumy">Sumy</option>
+                          <option data-lang-id="Rivne">Rivne</option>
+                          <option data-lang-id="Horlivka">Horlivka</option>
+                          <option data-lang-id="Ivano-Frankivsk">Ivano-Frankivsk</option>
+                          <option data-lang-id="Kamenets-Podilskyi">Kamenets-Podilskyi</option>
+                          <option data-lang-id="Ternopil">Ternopil</option>
+                          <option data-lang-id="Kropyvnytskyi">Kropyvnytskyi</option>
+                          <option data-lang-id="Lutsk">Lutsk</option>
+                          <option data-lang-id="Kremenchuk">Kremenchuk</option>
+                          <option data-lang-id="Bila Tserkva">Bila Tserkva</option>
+                          <option data-lang-id="Kerch">Kerch</option>
+                          <option data-lang-id="Melitopol">Melitopol</option>
+                          <option data-lang-id="Kramatorsk">Kramatorsk</option>
+                          <option data-lang-id="Uzhgorod">Uzhgorod</option>
+                          <option data-lang-id="Brovary">Brovary</option>
+                          <option data-lang-id="Yevpatoria">Yevpatoria</option>
+                          <option data-lang-id="Berdiansk">Berdiansk</option>
+                          <option data-lang-id="Alchevsk">Alchevsk</option>
+                          <option data-lang-id="Nikopol">Nikopol</option>
+                          <option data-lang-id="Slovyansk">Slovyansk</option>
+                          <option data-lang-id="Pavlohrad">Pavlohrad</option>
+                          <option data-lang-id="Perevalsk">Perevalsk</option>
+                          
                         </select>
                       </div>
-    
-    
-                      <section class="Shemoxaze">
-    
-                        <p class="AsarcheviShekitxva">What would you like to see improved? (Check all that apply)</p>
-    
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="FrontAndProjects">
-                          <label class="form-check-label" for="FrontAndProjects">
-                            Front-end Projects
-                          </label>
-                        </div>
-    
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="BackEndProjects">
-                          <label class="form-check-label" for="BackEndProjects">
-                            Back-end Projects
-                          </label>
-                        </div>
-    
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="DataVisualization">
-                          <label class="form-check-label" for="DataVisualization">
-                            Data Visualization
-                          </label>
-                        </div>
-                        
-                        
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="Challenges">
-                          <label class="form-check-label" for="Challenges">
-                            Challenges
-                          </label>
-                        </div>
-    
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="OpenSourceCommunity">
-                          <label class="form-check-label" for="OpenSourceCommunity">
-                          Source Community
-                          </label>
-                        </div>
-    
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="GitterhelpRooms">
-                          <label class="form-check-label" for="GitterhelpRooms">
-                            Gitter help rooms
-                          </label>
-                        </div>
-                      </section>
 
 
         
                       <section class="space-40px"></section>
 
-                      <button  type="submit" class="btn-hover color-2 dark-button7 btn-center">Register</button>
+                      <button  type="submit" class="btn-hover color-2 dark-button7 btn-center" data-lang-id="register">Register</button>
                       <section class="space-40px"></section>
 
-                      <p class="center white-i">У тебя уже есть аккаунт тогда:<a href="login.html" class="red-i"> Войди!</a></p>
+                      <p class="center white-i"><span data-lang-id="acc">You already have an account then:</span> <a href="login.html" class="red-i"><span data-lang-id="voidi"> Login!</span></a></p>
 
                   </form>
 
@@ -178,6 +186,8 @@
     <script src="js/reg.js"></script>
     <script src="js/dark.js"></script>
     <script src="js/page.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/langarr.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  

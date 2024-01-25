@@ -1,4 +1,41 @@
 const langArr = {
+
+// ====================================  HEADER/FOOTER =====================================================
+
+    "home": {
+        "en": "Home",
+        "ua": "Головна",
+    },
+
+    "about-hed": {
+        "en": "About",
+        "ua": "Про нас",
+    },
+
+    "contacts": {
+        "en": "Contacts",
+        "ua": "Контакти",
+    },
+
+    "catalog": {
+        "en": "Catalog",
+        "ua": "Каталог",
+    },
+
+    "eng": {
+        "en": "English",
+        "ua": "Aнглійська",
+    },
+
+    "ua": {
+        "en": "Ukrainian",
+        "ua": "Український",
+    },
+
+
+// ====================================  INDEX ===========================================================
+
+
     "chooseDesign": {
         "en": "Choose the design you like best",
         "ua": "Оберіть дизайн, який вам подобається найбільше",
@@ -313,7 +350,354 @@ const langArr = {
         "ua": " Наша команда експертів готова надати вам не тільки консультації, але й індивідуальний підхід, щоб забезпечити максимальний комфорт та впевненість у ваших рішеннях. Наши експерти глибоко аналізують ваші потреби та вимоги, щоб знайти житло, яке відповідає вашому стилю життя та бюджету. Ми пропонуємо вам ретельні поради та вивчені аналізи ринку, щоб ви могли приймати обдумані рішення.",
     },  
     
+    // ====================================  register ===========================================================
+    "register": {
+        "en": "Register",
+        "ua": "Зареєструватися",
+    },
+
+    "name": {
+        "en": "Name:",
+        "ua": "Ім'я:",
+    },
+
+
+    "lastname": {
+        "en": "Last Name:",
+        "ua": "Прізвище:",
+    },
+
+
+    "phone": {
+        "en": "Phone Number:",
+        "ua": "Номер телефону:",
+    },
+
+
+    "email": {
+        "en": "Email:",
+        "ua": "Електронна пошта:",
+    },
+
+
+    "password": {
+        "en": "Password:",
+        "ua": "Пароль:",
+    },
+
+
+    "gender": {
+        "en": "What is your gender?",
+        "ua": "Яка у вас стать?",
+    },
+
+
+    "city": {
+        "en": "Which city are you from ?",
+        "ua": "З якого ти міста ?",
+    },
+
+
+    "acc": {
+        "en": "You already have an account then:",
+        "ua": "У тебе вже є обліковий запис тоді:",
+    },
+
+
+    "voidi": {
+        "en": "Login!",
+        "ua": "Увійдіть!",
+    },
+
+
+    "gen": {
+        "en": "Select your gender:",
+        "ua": "Виберіть свою стать:",
+    },
+
+
+    "male": {
+        "en": "Male",
+        "ua": "Чоловіча",
+    },
+
+
+    "female": {
+        "en": "Female",
+        "ua": "Жіноча",
+    },
+
+
+    "selectcity": {
+        "en": "Select your city:",
+        "ua": "Виберіть своє місто:",
+    },
+
+    "Kiev": {
+        "en": "Kiev",
+        "ua": "Київ"
+    },
+    "Kharkiv": {
+        "en": "Kharkiv",
+        "ua": "Харків"
+    },
+    "Odessa": {
+        "en": "Odessa",
+        "ua": "Одеса"
+    },
+    "Dnipro": {
+        "en": "Dnipro",
+        "ua": "Дніпро"
+    },
+    "Donetsk": {
+        "en": "Donetsk",
+        "ua": "Донецьк"
+    },
+    "Lviv": {
+        "en": "Lviv",
+        "ua": "Львів"
+    },
+    "Zaporizhzhia": {
+        "en": "Zaporizhzhia",
+        "ua": "Запоріжжя"
+    },
+    "Kryvyi Rih": {
+        "en": "Kryvyi Rih",
+        "ua": "Кривий Ріг"
+    },
+    "Sevastopol": {
+        "en": "Sevastopol",
+        "ua": "Севастополь"
+    },
+    "Mykolaiv": {
+        "en": "Mykolaiv",
+        "ua": "Миколаїв"
+    },
+    "Mariupol": {
+        "en": "Mariupol",
+        "ua": "Маріуполь"
+    },
+    "Luhansk": {
+        "en": "Luhansk",
+        "ua": "Луганськ"
+    },
+    "Vinnytsia": {
+        "en": "Vinnytsia",
+        "ua": "Вінниця"
+    },
+    "Makiivka": {
+        "en": "Makiivka",
+        "ua": "Макіївка"
+    },
+    "Simferopol": {
+        "en": "Simferopol",
+        "ua": "Сімферополь"
+    },
+    "Chernihiv": {
+        "en": "Chernihiv",
+        "ua": "Чернігів"
+    },
+    "Poltava": {
+        "en": "Poltava",
+        "ua": "Полтава"
+    },
+    "Kherson": {
+        "en": "Kherson",
+        "ua": "Херсон"
+    },
+    "Khmelnytskyi": {
+        "en": "Khmelnytskyi",
+        "ua": "Хмельницький"
+    },
+    "Cherkasy": {
+        "en": "Cherkasy",
+        "ua": "Черкаси"
+    },
+    "Chernivtsi": {
+        "en": "Chernivtsi",
+        "ua": "Чернівці"
+    },
+    "Zhytomyr": {
+        "en": "Zhytomyr",
+        "ua": "Житомир"
+    },
+    "Sumy": {
+        "en": "Sumy",
+        "ua": "Суми"
+    },
+    "Rivne": {
+        "en": "Rivne",
+        "ua": "Рівне"
+    },
+    "Horlivka": {
+        "en": "Horlivka",
+        "ua": "Горлівка"
+    },
+    "Ivano-Frankivsk": {
+        "en": "Ivano-Frankivsk",
+        "ua": "Івано-Франківськ"
+    },
+    "Kamenets-Podilskyi": {
+        "en": "Kamenets-Podilskyi",
+        "ua": "Кам'янець-Подільський"
+    },
+    "Ternopil": {
+        "en": "Ternopil",
+        "ua": "Тернопіль"
+    },
+    "Kropyvnytskyi": {
+        "en": "Kropyvnytskyi",
+        "ua": "Кропивницький"
+    },
+    "Lutsk": {
+        "en": "Lutsk",
+        "ua": "Луцьк"
+    },
+    "Kremenchuk": {
+        "en": "Kremenchuk",
+        "ua": "Кременчук"
+    },
+    "Bila Tserkva": {
+        "en": "Bila Tserkva",
+        "ua": "Біла Церква"
+    },
+    "Kerch": {
+        "en": "Kerch",
+        "ua": "Керч"
+    },
+    "Melitopol": {
+        "en": "Melitopol",
+        "ua": "Мелітополь"
+    },
+    "Kramatorsk": {
+        "en": "Kramatorsk",
+        "ua": "Краматорськ"
+    },
+    "Uzhgorod": {
+        "en": "Uzhgorod",
+        "ua": "Ужгород"
+    },
+    "Brovary": {
+        "en": "Brovary",
+        "ua": "Бровари"
+    },
+    "Yevpatoria": {
+        "en": "Yevpatoria",
+        "ua": "Євпаторія"
+    },
+    "Berdiansk": {
+        "en": "Berdiansk",
+        "ua": "Бердянськ"
+    },
+    "Alchevsk": {
+        "en": "Alchevsk",
+        "ua": "Алчевськ"
+    },
+    "Nikopol": {
+        "en": "Nikopol",
+        "ua": "Нікополь"
+    },
+    "Slovyansk": {
+        "en": "Slovyansk",
+        "ua": "Слов'янськ"
+    },
+    "Pavlohrad": {
+        "en": "Pavlohrad",
+        "ua": "Павлоград"
+    },
+    "Perevalsk": {
+        "en": "Perevalsk",
+        "ua": "Перевальськ"
+    },
+    // ==================================== LOGIN ===========================================================
+
+    "password_placeholder": {
+        "en": "Enter Password",
+        "ua": "Введіть пароль"
+    },
+
+
+    "email_placeholder": {
+        "en": "Enter Email",
+        "ua": "Введіть Email",
+    },
+
+    "logIn": {
+        "en": "Login in to an existing account",
+        "ua": "Увійти до існуючого облікового запису",
+    },
+
+    "logb": {
+        "en": "Login",
+        "ua": "Увійти",
+    },
+
+
+    "notacc": {
+        "en": "You don't have an account then:",
+        "ua": "У вас немає облікового запису:",
+    },
+
+
+    "reg": {
+        "en": "Register!",
+        "ua": "Зареєструйся!",
+    },
+
+    "name_placeholder": {
+        "en": "Enter your name",
+        "ua": "Введіть своє ім'я",
+    },
+
+    "lastname_placeholder": {
+        "en": "Enter your Last name",
+        "ua": "Введіть своє прізвище",
+    },
+
+    "number_placeholder": {
+        "en": "Enter your phone number",
+        "ua": "Введіть номер телефону",
+    },
+
+    "about": {
+        "en": "",
+        "ua": "",
+    },
+
+    "about": {
+        "en": "",
+        "ua": "",
+    },
+
+    "about": {
+        "en": "",
+        "ua": "",
+    },
+
+    "about": {
+        "en": "",
+        "ua": "",
+    },
+
+    "about": {
+        "en": "",
+        "ua": "",
+    },
+
+    "about": {
+        "en": "",
+        "ua": "",
+    },
+
+    "about": {
+        "en": "",
+        "ua": "",
+    },
+
     
+
+
+
 
 
 

@@ -15,14 +15,19 @@ function getCurrentLanguageFromCookies() {
     return 'en'; // Возвращает "en", если язык не найден
 }
 
-// Общая функция для обновления текста по языку
-function updateTextsByLanguage(languageCode) {
+// Общая функция для обновления текста и плейсхолдеров по языку
+function updateTextsAndPlaceholdersByLanguage(languageCode) {
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
         const identifier = element.getAttribute('data-lang-id');
         const translation = langArr[identifier] && langArr[identifier][languageCode];
+        
         if (translation !== undefined) {
-            element.innerText = translation;
+            if (element.placeholder !== undefined) {
+                element.placeholder = translation;
+            } else {
+                element.innerText = translation;
+            }
             console.log(`Updated text for ${identifier} to: ${translation}`);
         } else {
             console.error(`Translation not found for ${identifier} in language ${languageCode}`);
@@ -50,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function changeLanguage(languageCode) {
         console.log("Changing language to:", languageCode);
-        updateTextsByLanguage(languageCode);
+        updateTextsAndPlaceholdersByLanguage(languageCode);
         languageList.classList.remove("active");
 
         // Сохранение текущего языка в куки

@@ -36,16 +36,16 @@
                                 <img src="img/svg/login.svg" alt="Login" class="login-icon white-icon">
                             </button>
                             <div class="login-dropdown-content" id="dropdownContent">
+                              
+                              <a href="login.html">
+                                <img src="img/svg/login.svg" alt="Register" class="login-icon invert-color">
+                                <span class="dark-lista translate" data-lang-id="login">Login</span>
+                            </a>
 
-                                <a href="login.html">
-                                    <img src="img/svg/login.svg" alt="Register" class="login-icon invert-color">
-                                    <span class="dark-lista">Login</span>
+                                <a href="reg.html">
+                                    <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
+                                    <span class="dark-lista translate" data-lang-id="register">Register</span>
                                 </a>
-    
-                                    <a href="reg.html">
-                                        <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
-                                        <span class="dark-lista">Register</span>
-                                    </a>
                             </div>
                         </div>
                         
@@ -53,19 +53,18 @@
                         
                         </li>
                         <li>
-                            <div class="language-dropdown">
-                                <button id="languageButton" class="flex items-center white-icon">
-                                    <img src="img/svg/lang.svg" alt="Language" class="login-icon">
-                                </button>
-                                <div class="language-list dark-list">
-                                  <ul class="listul">
-                                    <li class="listli"><a href="#" onclick="changeLanguage('en')" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
-                                    <li class="listli"><a href="#" onclick="changeLanguage('es')" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+                          <div class="language-dropdown">
+                            <button id="languageButton" class="flex items-center white-icon">
+                                <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+                            </button>
+                            <div class="language-list dark-list">
+                                <ul class="listul">
+                                    <li class="listli"><a href="#" data-lang-code="en" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> <span data-lang-id="eng">English</span></a></li>
+                                    <li class="listli"><a href="#" data-lang-code="ua" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag"><span data-lang-id="ua">Ukrainian</span></a></li>
                                     <!-- Добавьте другие языки по необходимости -->
                                 </ul>
-                                
-                                </div>
                             </div>
+                        </div>
                         </li>
                         <li>
                             <button id="toggleButton" class="flex items-center">
@@ -76,20 +75,20 @@
                     </ul>
                 </div>
 
-                <ul class="menu">
+                <ul class="menu ">
+                    <li class="item " >
+                        <a href="index.html"span data-lang-id="home">Home</a>
+                    </li>
+                    <li class="item " >
+                        <a href="about.html" span data-lang-id="about-hed">About</a>
+                    </li>
+                    <li class="item active" >
+                        <a href="contacts.html" span data-lang-id="contacts">Contacts</a>
+                    </li>
                     <li class="item ">
-                        <a href="index.html">Home</a>
+                        <a href="#" span data-lang-id="catalog">Сatalog</a>
                     </li>
-                    <li class="item">
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="item active">
-                        <a href="contacts.html">Contacts</a>
-                    </li>
-                    <li class="item">
-                        <a href="#">Сatalog</a>
-                    </li>
-                    <li class="item">
+                    <li class="item ">
                         <a href="faq.html">FAQ</a>
                     </li>
                 </ul>
@@ -102,6 +101,7 @@
             </nav>
         </div>
     </header>
+
 
     <!-- =============== END HEADER ===============-->
 
@@ -190,10 +190,10 @@
             <div class="footer-menu">
                 <hr>
                 <ul class="f-menu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contacts.html">Contact</a></li>
-                  <li><a href="#">Сatalog</a></li>
+                  <li><a href="index.html" data-lang-id="home">Home</a></li>
+                  <li><a href="about.html" data-lang-id="about-hed">About</a></li>
+                  <li><a href="contacts.html" data-lang-id="contacts">Contact</a></li>
+                  <li><a href="#" data-lang-id="catalog">Сatalog</a></li>
                   <li><a href="faq.html">FAQ</a></li>
                 </ul>
               </div>
@@ -206,7 +206,7 @@
                   <i class="fa fa-instagram fa-4x icon-3d"></i>
               </div>
   <br>
-              <a href="#" class="privacy translate" data-lang-id="privacy">Умови користування та Політика конфіденційності</a> 
+              <a href="privacy.html" class="privacy translate" data-lang-id="privacy">Умови користування та Політика конфіденційності</a> 
                       
         </div>
         
@@ -224,6 +224,7 @@
     <script src="js/dark.js"></script>
     <script src="js/page.js"></script>
     <script src="js/language.js"></script>
+    <script src="js/langarr.js"></script>
     <script src="js/maps.js"></script>
     <script src="js/login.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
