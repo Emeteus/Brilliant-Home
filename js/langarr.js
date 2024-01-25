@@ -155,8 +155,12 @@ const langArr = {
     "catalog":{
         "en": "Catalogue",
         "ua": "Каталог ",
-    }
+    },
 
+    "hb": {
+        "en": "HomeBrilliant - is your reliable partner in the world of luxury real estate. Secure yourself a stylish and comfortable future with our unique offers.",
+        "ua": "HomeBrilliant - ваш надійний партнер у світі елітної нерухомості. Забезпечте собі стильне та комфортне майбутнє з нашими унікальними пропозиціями.",
+    },
 
     
 
