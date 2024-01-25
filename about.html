@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/css-about/header.css">
     <link rel="stylesheet" href="css/css-about/page_about.css">
     <link rel="stylesheet" href="css/css-about/dark.css"> 
-    <link rel="stylesheet" href="css/css-about/pop-out.css">
     <link rel="stylesheet" href="css/css-about/space.css">
     <link rel="stylesheet" href="css/css-about/button.css">
     <link rel="stylesheet" href="css/css-about/footer.css">
@@ -34,15 +33,15 @@
                               <img src="img/svg/login.svg" alt="Login" class="login-icon white-icon">
                           </button>
                           <div class="login-dropdown-content" id="dropdownContent">
-
+                            
                             <a href="login.html">
                               <img src="img/svg/login.svg" alt="Register" class="login-icon invert-color">
-                              <span class="dark-lista">Login</span>
+                              <span class="dark-lista translate" data-lang-id="login">Login</span>
                           </a>
 
                               <a href="reg.html">
                                   <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
-                                  <span class="dark-lista">Register</span>
+                                  <span class="dark-lista translate" data-lang-id="register">Register</span>
                               </a>
                           </div>
                       </div>
@@ -51,19 +50,18 @@
                       
                       </li>
                       <li>
-                          <div class="language-dropdown">
-                              <button id="languageButton" class="flex items-center white-icon">
-                                  <img src="img/svg/lang.svg" alt="Language" class="login-icon">
-                              </button>
-                              <div class="language-list dark-list">
-                                <ul class="listul">
-                                  <li class="listli"><a href="#" onclick="changeLanguage('en')" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
-                                  <li class="listli"><a href="#" onclick="changeLanguage('es')" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
+                        <div class="language-dropdown">
+                          <button id="languageButton" class="flex items-center white-icon">
+                              <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+                          </button>
+                          <div class="language-list dark-list">
+                              <ul class="listul">
+                                  <li class="listli"><a href="#" data-lang-code="en" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> English</a></li>
+                                  <li class="listli"><a href="#" data-lang-code="ua" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag">Ukraine</a></li>
                                   <!-- Добавьте другие языки по необходимости -->
                               </ul>
-                              
-                              </div>
                           </div>
+                      </div>
                       </li>
                       <li>
                           <button id="toggleButton" class="flex items-center">
@@ -74,20 +72,20 @@
                   </ul>
               </div>
 
-              <ul class="menu">
-                  <li class="item ">
+              <ul class="menu ">
+                  <li class="item " >
                       <a href="index.html">Home</a>
                   </li>
-                  <li class="item active">
+                  <li class="item active" >
                       <a href="about.html">About</a>
                   </li>
-                  <li class="item">
+                  <li class="item " >
                       <a href="contacts.html">Contacts</a>
                   </li>
-                  <li class="item">
+                  <li class="item ">
                       <a href="#">Сatalog</a>
                   </li>
-                  <li class="item">
+                  <li class="item ">
                       <a href="faq.html">FAQ</a>
                   </li>
               </ul>
@@ -110,13 +108,78 @@
         
         <div class="about-container">
             <div class="about-text">
-                <h2 class="about-h2">About</h2>
-                <p class="about-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie est. Fusce cursus ipsum fermentum est maximus, et tempor velit fringilla. Vivamus et consectetur augue. Phasellus pharetra maximus rutrum. Curabitur nec interdum tellus. Proin viverra ultrices purus, ut tempus nunc. Sed vitae ligula nec magna sagittis porttitor. Curabitur ultricies diam tellus, at ornare elit cursus non. Cras dignissim condimentum sapien, id suscipit lectus porta eget. Sed malesuada libero quis nunc elementum molestie. Sed ut rutrum ante. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi, atque dolores doloremque reprehenderit aut aliquid omnis vel quod a earum quis, quasi obcaecati quisquam vitae quas, placeat vero? Iste?
+                <h2 class="about-h2 translate" data-lang-id="about">About</h2>
+                <p class="about-p translate" data-lang-id="aims">
+                  HomeBrilliant aims to provide you with the largest selection of properties marked by refinement, style and personal touch. Thanks to our large catalog of real estate, you will have the opportunity to find the perfect place to live or invest.
                 </p>
-                <p class="about-p"> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ultrices tellus. Aenean nulla lacus, vestibulum ac pretium non, volutpat id diam. Nunc rhoncus justo vestibulum, vulputate dolor quis, tempus nisi. Sed faucibus nunc ut enim efficitur blandit. In sed tortor dui. Sed vestibulum mi in purus egestas finibus. Donec facilisis ante ac dictum efficitur. Nunc interdum sem nunc, quis imperdiet neque interdum quis. Fusce tempor sapien quis nulla fermentum tristique. Vestibulum sollicitudin porttitor gravida.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie est. Fusce cursus ipsum fermentum est maximus, et tempor velit fringilla. Vivamus et consectetur augue. Phasellus pharetra maximus rutrum. Curabitur nec interdum tellus. Proin viverra ultrices purus, ut tempus nunc. Sed vitae ligula nec magna sagittis porttitor. Curabitur ultricies diam tellus, at ornare elit cursus non. Cras dignissim condimentum sapien, id suscipit lectus porta eget. Sed malesuada libero quis nunc elementum molestie. Sed ut rutrum ante. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi, atque dolores doloremque reprehenderit aut aliquid omnis vel quod a earum quis, quasi obcaecati quisquam vitae quas, placeat vero? Iste?
-                </p>
+                <hr class="line dark-line">
+                <div class="space-100px"></div>
+
+                <div class="box2">
+                  <h2 class="h2text-box2 translate" data-lang-id="">
+                    <span class="prod translate" data-lang-id="invest">To investors:</span> <span data-lang-id="garant"> HomeBrilliant guarantees:</span>
+                  </h2>
+                  <p class="text-pbox translate" data-lang-id="">
+                    <ul class="ul-text">
+                      <li><span class="prod2" data-lang-id="unikal">Unique opportunities:</span> <span data-lang-id="dostup"> Access advanced properties for investments that stand out in the market.</span></li>
+                      <br>
+                      <li><span class="prod2" data-lang-id="expert">Expert consultations:</span><span data-lang-id="nashi"> Our real estate experts will provide you with valuable insight and support in making informed decisions.</span></li>
+                    </ul>
+                  </p>
+                </div>
+            
+            <div class="space-20px"></div>
+            
+                <div class="box3">
+                  <h2 class="h2text-box2 translate" data-lang-id="">
+                    <span class="prod" data-lang-id="pokup">Buyers:</span> <span data-lang-id="rada"> we recommend using HomeBrilliant:</span>
+                  </h2>
+        
+                  <p class="text-pbox translate" data-lang-id="">
+                    <ul class="ul-text">
+                      <li><span class="prod2" data-lang-id="shir">A wide selection:</span> <span data-lang-id="vid">From luxury apartments to cozy houses - we have everything to satisfy your needs.</span></li>
+                      <br>
+                      <li><span class="prod2" data-lang-id="osob">Personal approach:</span> <span data-lang-id="vashuni">Your unique wishes and requirements are our priority. We will help you find exactly what you are looking for.</span></li>
+                      <br>
+                    </ul>
+                  </p>
+                </div>
+            
+            <div class="space-20px"></div>
+            
+                <div class="box2">
+                  <h2 class="h2text-box2 translate" data-lang-id="">
+                    <span class="prod" data-lang-id="prodavec"></span> <span data-lang-id="garant"> HomeBrilliant гарантує:</span>
+                  </h2>
+                  <p class="text-pbox">
+                    <ul class="ul-text">
+                      <li><span class="prod2" data-lang-id="efect">Effective selling:</span> <span data-lang-id="nashspec">Our specialists will help you sell your real estate quickly and profitably.</span></li>
+                      <br>
+                      <li><span class="prod2" data-lang-id="prof">Professional marketing:</span> <span data-lang-id="maxi"> We maximize the appeal of your property through advertising and marketing.</span></li>  
+                      <br>
+                    </ul>
+                </div>
+
+                <div class="space-20px"></div>
+            
+                <div class="box3">
+                  <h2 class="h2text-box3 prod translate" data-lang-id="howkore">How to use HomeBrilliant:</h2>
+                  <p class="text-pbox translate" data-lang-id="">
+                    <ul class="ul-text">
+                      <li><span class="prod2" data-lang-id="poshuk">Search and filter:</span> <span data-lang-id="zavd"> Thanks to the advanced search and filters, you can quickly find objects that meet your needs.</span></li>
+                      <br>
+                      <li><span class="prod2" data-lang-id="vivche">Studying the catalog:</span> <span data-lang-id="detal">Get to know each object in detail with the help of descriptions and photos in our catalog.</span></li>
+                      <br>
+                      <li><span class="prod2" data-lang-id="expertni">Expert consultations:</span> <span data-lang-id="nashcomand">Our team is ready to provide you with an individual approach and consultations.</span></li>
+                      <br>
+                    </ul>
+                  </p>
+                </div>
+                <div class="space-50px"></div>
+                <hr class="line dark-line">
+
+                <p class="about-p" data-lang-id="team"> 
+                  Our team of experts is ready to provide you not only with advice, but also with an individual approach to ensure maximum comfort and confidence in your decisions. Our experts analyze your needs and requirements in depth to find a home that fits your lifestyle and budget. We offer you thorough advice and educated market analysis so you can make informed decisions.</p>
             </div>
             <!-- <div class="about-img dark-border">
                 <img src="img/bg/city.png" alt="City Image">
@@ -129,98 +192,6 @@
 
             <div class="space-40px"></div> 
 
-        <div class="container-card">
-            <div class="card dark-kard">
-              <img src="img/person/bradley-mason.png" alt="Person" class="card__image">
-              <p class="card__name">Валерій Романович</p>
-              <div class="grid-container">
-          
-                <div class="grid-child-posts">
-                  <!-- 305 Post -->
-                 Tel: +38(063)-592-33-65
-                </div>
-                <br>
-          
-                <div class="grid-child-followers">
-                  Email: abodemaxmod2002@gmail.com
-                </div>
-          
-              </div>
-              <ul class="social-icons social-icons-dark">
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-              </ul>
-
-          
-            </div>
-            <div class="card dark-kard">
-              <img src="img/person/tiffany-lee.png" alt="Person" class="card__image">
-              <p class="card__name">Катерина Євгенівна</p>
-              <div class="grid-container">
-          
-                <div class="grid-child-posts">
-                  Tel: +38(063)-592-33-65
-                </div>
-          <br>
-                <div class="grid-child-followers">
-                  Email: abodemaxmod2002@gmail.com
-                </div>
-          
-              </div>
-              <ul class="social-icons social-icons-dark">
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-              </ul>
-
-            </div>
-            <div class="card dark-kard ">
-              <img src="img/person/jeremy-clark.png" alt="Person" class="card__image">
-              <p class="card__name">Кравченко Владислав</p>
-              <div class="grid-container">
-          
-                <div class="grid-child-posts">
-                  Tel: +38(063)-592-33-65
-                </div>
-          <br>
-                <div class="grid-child-followers">
-                  Email: abodemaxmod2002@gmail.com
-                </div>
-          
-              </div>
-              <ul class="social-icons social-icons-dark">
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-              </ul>
-            </div>
-
-            <div class="card dark-kard">
-                <img src="img/person/yasmine-harris.png" alt="Person" class="card__image">
-                <p class="card__name">Юлія Андріївна</p>
-                <div class="grid-container">
-            
-                  <div class="grid-child-posts">
-                    Tel: +38(063)-592-33-65
-                  </div>
-            <br>
-                  <div class="grid-child-followers">
-                    Email: abodemaxmod2002@gmail.com
-                  </div>
-            
-                </div>
-                <ul class="social-icons social-icons-dark">
-                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-                </ul>
-              </div>
-            </div>
           </div>
 
 
@@ -237,40 +208,49 @@
 
     <!-- ================= FOOTER =================-->
     <footer>
-        <div class="footer-content">
-            <h3 class="footer-h3">Brilliant Home</h3>
-            <div class="footer-menu">
-                <hr>
-                <ul class="f-menu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contacts.html">Contact</a></li>
-                  <li><a href="#">Сatalog</a></li>
-                  <li><a href="faq.html">FAQ</a></li>
-                </ul>
-              </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus.
-            </p>
-            <div class="flex-center">
-                <i class="fa fa-github fa-4x icon-3d"></i>
-                  <i class="fa fa-twitter fa-4x icon-3d"></i>
-                  <i class="fa fa-facebook fa-4x icon-3d"></i>
-                  <i class="fa fa-instagram fa-4x icon-3d"></i>
-              </div>
-        </div>
-        <hr>
-        <div class="footer-bottom ">
-          <p class="translate" data-lang-id="reserved">copyright &copy; 2024 <a href="#"> HomeBrilliant.</a></p>
-        </div>
+      <div class="footer-content">
+          <h3 class="footer-h3">Brilliant Home</h3>
+          <div class="footer-menu">
+              <hr>
+              <ul class="f-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="#">Сatalog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </div>
+          <p class="translate" data-lang-id="hb">HomeBrilliant - ваш надійний партнер у світі елітної нерухомості. Забезпечте собі стильне та комфортне майбутнє з нашими унікальними пропозиціями. 
+          </p>
+          <div class="flex-center">
+              <i class="fa fa-github fa-4x icon-3d"></i>
+                <i class="fa fa-twitter fa-4x icon-3d"></i>
+                <i class="fa fa-facebook fa-4x icon-3d"></i>
+                <i class="fa fa-instagram fa-4x icon-3d"></i>
+            </div>
+<br>
+            <a href="#" class="privacy translate" data-lang-id="privacy">Умови користування та Політика конфіденційності</a> 
+                    
+      </div>
+      
+      <hr>
+      <div class="footer-bottom ">
+        <p>copyright &copy; 2024 <a href="index.html"> HomeBrilliant.</a></p>
+      </div>
+  </hr>
 
-    </footer>
+  </footer>
     <!-- =============== END FOOTER ===============-->
 
 
     <script src="js/header.js"></script>
     <script defer src="js/dark.js"></script>
     <script src="js/page.js"></script>
+    <!-- =========================================== -->
     <script src="js/language.js"></script>
+    <script src="js/langarr.js"></script>
+    <!-- =========================================== -->
+
     <script src="js/login.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>

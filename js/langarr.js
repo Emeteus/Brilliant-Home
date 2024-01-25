@@ -162,9 +162,169 @@ const langArr = {
         "ua": "HomeBrilliant - ваш надійний партнер у світі елітної нерухомості. Забезпечте собі стильне та комфортне майбутнє з нашими унікальними пропозиціями.",
     },
 
+    "privacy": {
+        "en": "Terms of Use and Privacy Policy",
+
+        "ua": "Умови користування та Політика конфіденційності",
+    },
     
+
+    // ====================================  ABOUT ==========================================================================
+
+    "about": {
+        "en": "About HomeBrilliant:",
+        "ua": "Про HomeBrilliant:",
+    },
+
+    "aims": {
+        "en": "HomeBrilliant aims to provide you with the largest selection of properties marked by refinement, style and personal touch. Thanks to our large catalog of real estate, you will have the opportunity to find the perfect place to live or invest.:",
+
+        "ua": "HomeBrilliant ставить за мету надати вам найбільший вибір нерухомості, що відзначається вишуканістю, стилем та персональним підходом. Завдяки нашому великому каталозі об'єктів нерухомості, ви матимете можливість знайти ідеальне місце для життя чи інвестування.",
+    },
+    // ====================================  card ===========================================================
+    "invest": {
+        "en": " To investors:",
+        "ua": " Інвесторам:",
+    },
+
+    "garant": {
+        "en": " HomeBrilliant guarantees:",
+        "ua": " HomeBrilliant гарантує:",
+    },
+    
+    "unikal": {
+        "en": " Unique opportunities:",
+        "ua": " Унікальні можливості:",
+    },
+    "dostup": {
+        "en": " Access advanced properties for investments that stand out in the market.",
+        "ua": " Вступайте до передових об'єктів для інвестицій, що вигідно вирізняються на ринку.",
+    },
+    "expert": {
+        "en": " Expert consultations:",
+        "ua": " Експертні консультації:",
+    },
+    "nashi": {
+        "en": " Our real estate experts will provide you with valuable insight and support in making informed decisions.",
+        "ua": " Наші експерти з нерухомості нададуть вам цінний інсайт та підтримку у прийнятті обдуманих рішень.",
+    },
+
+    // ====================================  card 2 ===========================================================
+
+    "pokup": {
+        "en": "Buyers:",
+        "ua": "Покупців:",
+    },
+
+    "rada": {
+        "en": " we recommend using HomeBrilliant:",
+        "ua": " HomeBrilliant раджуємо користуватися:",
+    },
+
+    "shir": {
+        "en": "A wide selection:",
+        "ua": "Широким вибором:",
+    },
+
+    "vid": {
+        "en": "From luxury apartments to cozy houses - we have everything to satisfy your needs.",
+        "ua": "Від елітних квартир до затишних осель - у нас є все, щоб задовольнити ваші вибаги.",
+    },
+
+    "osob": {
+        "en": "Personal approach:",
+        "ua": "Особистий підхід:",
+    },
+
+    "vashuni": {
+        "en": "Your unique wishes and requirements are our priority. We will help you find exactly what you are looking for.",
+        "ua": "Ваші унікальні побажання та вимоги - наш пріоритет. Ми допоможемо вам знайти саме те, що ви шукаєте.",
+    },
+
+    // ====================================  card 3 ===========================================================
+
+    "prodavec": {
+        "en": " To sellers:",
+        "ua": " Продавцям:",
+    },
+
+    "efect": {
+        "en": " Effective selling:",
+        "ua": " Ефективний продаж:",
+    },
+    
+    "nashspec": {
+        "en": " Our specialists will help you sell your real estate quickly and profitably.",
+        "ua": " Наші спеціалісти допоможуть вам швидко та вигідно реалізувати вашу нерухомість.",
+    },
+    
+    "prof": {
+        "en": "Professional marketing:",
+        "ua": "Професійний маркетинг:",
+    },
+    
+    "maxi": {
+        "en": " We maximize the appeal of your property through advertising and marketing.",
+        "ua": " Ми максимізуємо привабливість вашої нерухомості через рекламу та маркетинг.",
+    },
+    
+    // ====================================  card 4 ===========================================================
+
+    "howkore": {
+        "en": " How to use HomeBrilliant:",
+        "ua": " Як користуватися HomeBrilliant:",
+    },
+
+    "poshuk": {
+        "en": " Search and filter:",
+        "ua": " Пошук та фільтрація:",
+    },
+    
+    "prodavec": {
+        "en": " To sellers:",
+        "ua": " Продавцям:",
+    },
+
+    "vivche": {
+        "en": " Studying the catalog:",
+        "ua": " Вивчення каталогу:",
+    },
+    
+    "detal": {
+        "en": " Get to know each object in detail with the help of descriptions and photos in our catalog.",
+        "ua": " Детально ознайомтеся з кожним об'єктом за допомогою описів та фотографій у нашому каталозі.",
+    },
+
+    "expertni": {
+        "en": " Expert consultations:",
+        "ua": " Експертні консультації:",
+    },
+
+    "nashcomand": {
+        "en": " Our team is ready to provide you with an individual approach and consultations.",
+        "ua": " Наша команда готова надати вам індивідуальний підхід та консультації.",
+    },
+
+    // ====================================  card 4 ===========================================================
+
+    "team": {
+        "en": " Our team of experts is ready to provide you not only with advice, but also with an individual approach to ensure maximum comfort and confidence in your decisions. Our experts analyze your needs and requirements in depth to find a home that fits your lifestyle and budget. We offer you thorough advice and educated market analysis so you can make informed decisions.",
+
+        "ua": " Наша команда експертів готова надати вам не тільки консультації, але й індивідуальний підхід, щоб забезпечити максимальний комфорт та впевненість у ваших рішеннях. Наши експерти глибоко аналізують ваші потреби та вимоги, щоб знайти житло, яке відповідає вашому стилю життя та бюджету. Ми пропонуємо вам ретельні поради та вивчені аналізи ринку, щоб ви могли приймати обдумані рішення.",
+    },  
+    
+    
+
+
+
 
 };
 
 // translate
 // data-lang-id="under"
+
+
+// "about": {
+//     "en": "",
+//     "ua": "",
+// },

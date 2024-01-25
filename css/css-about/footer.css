@@ -170,3 +170,13 @@ footer {
   }
 }
 
+.privacy{
+  background: transparent;
+  font-size: 12px;
+  color: #7440b8;
+}
+
+.privacy:hover{
+  color: #ffffff;
+
+}

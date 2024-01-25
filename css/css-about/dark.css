@@ -218,3 +218,25 @@ body.dark .login-dropdown-content {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
+body.dark .box3 {
+  position: relative;
+  background-color: rgba(43, 18, 76, 0.5);
+  border: 5px solid rgb(241, 144, 109);
+
+}
+
+body.dark .box2 {
+  position: relative;
+  background-color: rgba(43, 18, 76, 0.5);
+  border: 5px solid rgb(241, 144, 109);
+
+}
+
+body.dark .prod{
+  color: rgb(241, 144, 109);
+}
+
+body.dark .prod2{
+  color: rgb(241, 144, 109);
+}

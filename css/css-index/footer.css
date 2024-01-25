@@ -80,9 +80,19 @@ footer {
   text-align: center; /* Выравниваем текст по центру */
 }
 
+.privacy{
+  background: transparent;
+  font-size: 12px;
+  color: #7440b8;
+}
+
+.privacy:hover{
+  color: #ffffff;
+
+}
 
 .footer-bottom p a {
-  color: #ffb700;
+  color: #7440b8;
   font-size: 14px; /* Уменьшен размер шрифта */
   text-decoration: none;
 }

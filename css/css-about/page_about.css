@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
 
 
 .about-container {
@@ -12,15 +14,15 @@
 }
 
 .about-h2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 90px;
     /* margin-left: 50px; */
     text-align: center;
 }
 
 .about-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
     margin-right: 30px; /* Adjusted margin to create space between text and image */
     margin-left: 30px;
     text-align: justify;
@@ -29,7 +31,7 @@
 
 @media (max-width: 768px) {
     .about-h2 {
-        font-size: 30px;
+        font-size:60px;
     }
 
     .about-p {
@@ -51,6 +53,106 @@
   box-sizing: border-box; /* Include padding and border in the element's total width */
   margin: 0; /* Remove default margin */
   padding: 10px; /* Add padding if needed */
+}
+
+.box2 {
+    position: relative;
+    background-color: rgba(43, 18, 76, 0.5);
+    border: 5px solid rgb(211, 1, 19);
+    border-radius: 40px;
+    width: 45%;
+    min-width: 30vh;
+    display: flex; 
+    flex-direction: column; /*для вертикального расположения элементов */
+    justify-content: flex-start; /*для выравнивания слева */
+    padding-left: 30px; /*отступ слева */
+
+}
+
+.text-pbox{
+    text-align: justify;
+    color: aliceblue;
+}
+
+.h2text-box2 {
+    margin-top: 0; 
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+
+.ul-text{
+    list-style: disc;
+    font-size: 20px;
+    padding:0;
+    margin:8px;
+    margin-left: 30px;
+    color: aliceblue;
+
+}
+
+.box3 {
+    position: relative;
+    background-color: rgba(43, 18, 76, 0.5);
+    border: 5px solid rgb(211, 1, 19);
+    border-radius: 40px;
+    width: 45%;
+    min-width: 30vh;
+    margin-left: auto; /* выравнивание по правой стороне страницы */
+    display: flex; 
+    flex-direction: column; /* для вертикального расположения элементов */
+    justify-content: flex-end; /* для выравнивания по нижнему краю */
+    padding-right: 30px;
+}
+
+
+
+.h2text-box3 {
+    margin-top: 0; 
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+
+@media (min-width: 900px) {
+    .box2, .box3 {
+        width: 45%;
+    }
+
+    .box2 {
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .box3 {
+        margin-left: auto;
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .box2, .box3 {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .box3 {
+        margin-left: 0;
+    }
+}
+
+.prod{
+    color: rgb(211, 1, 19);
+    font-weight: 1000;
+}
+
+.prod2{
+    color: rgb(251, 255, 0);
+    font-weight: 1000;
 }
 
 
