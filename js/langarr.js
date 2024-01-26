@@ -206,7 +206,60 @@ const langArr = {
     },
     
 
-    // ====================================  ABOUT ==========================================================================
+    // ====================================  ABOUT ================================================
+
+
+        
+    "rent": {
+        "en": " Apartment rental specialist",
+        "ua": " Спеціаліст з оренди квартир",
+    },
+
+    "sales": {
+        "en": " Apartment sales specialist",
+        "ua": " Спеціаліст з продажу квартир",
+    },
+
+    "dima": {
+        "en": " Dmytrenko Alla",
+        "ua": " Дмитренко Алла",
+    },
+
+    "sheva": {
+        "en": " Shevchenko Valery",
+        "ua": " Шевченко Валерій",
+    },
+
+    "zahar": {
+        "en": " Zakharchuk Nina",
+        "ua": " Захарчук Ніна",
+    },
+
+    "sereda": {
+        "en": " Sereda Timofey",
+        "ua": "Середа Тимофій ",
+    },
+
+    "fahi": {
+        "en": "Our specialists are ready to help you at any time",
+        "ua": "Наші фахівці, які готові вам допомогти в будь-який час",
+    },
+
+    "p1": {
+        "en": "Our team is ready to provide you with an exceptional level of service and address your needs. Highly qualified and friendly staff equipped with in-depth knowledge of real estate and ready to provide expert advice. With professionalism and years of experience, they are always ready to provide personalized assistance at every stage of your experience with us.",
+
+        "ua": "Наша команда готова надати вам винятковий рівень обслуговування та вирішувати ваші потреби. Висококваліфіковані та привітні співробітники обладнані глибокими знаннями у галузі нерухомості та готові надавати експертні поради. Вони володіють професіоналізмом та багаторічним досвідом, завжди готові надавати персоналізовану допомогу на кожному етапі вашого досвіду з нами.",
+    },
+
+    "p2": {
+        "en": "And we understand the uniqueness of each client and approach each situation individually. Our team offers you not only effective support, but also open, friendly communication. We welcome your questions and are always ready to help you solve any issues. Let our employees become your loyal partners in all real estate matters, guaranteeing a quick and efficient response to all your needs.",
+
+        "ua": "Ми розуміємо унікальність кожного клієнта і підходимо до кожної ситуації індивідуально. Наша команда пропонує вам не тільки ефективну підтримку, але і відкрите, дружелюбне спілкування. Ми вітаємо ваші запитання та завжди готові вам допомогти вирішити будь-які питання. Нехай наші співробітники стануть вашими відданими партнерами у всіх питаннях з нерухомістю, гарантуючи швидку та ефективну реакцію на всі ваші потреби.",
+    },
+
+
+
+
 
     "about-b": {
         "en": "About HomeBrilliant:",
@@ -330,6 +383,11 @@ const langArr = {
     "detal": {
         "en": " Get to know each object in detail with the help of descriptions and photos in our catalog.",
         "ua": " Детально ознайомтеся з кожним об'єктом за допомогою описів та фотографій у нашому каталозі.",
+    },
+
+    "zavd": {
+        "en": " Thanks to the advanced search and filters, you can quickly find objects that meet your needs.",
+        "ua": " Завдяки розширеному пошуку та фільтрам ви зможете швидко знайти об'єкти, які відповідають вашим потребам",
     },
 
     "expertni": {
@@ -659,40 +717,6 @@ const langArr = {
         "ua": "Введіть номер телефону",
     },
 
-    "about": {
-        "en": "",
-        "ua": "",
-    },
-
-    "about": {
-        "en": "",
-        "ua": "",
-    },
-
-    "about": {
-        "en": "",
-        "ua": "",
-    },
-
-    "about": {
-        "en": "",
-        "ua": "",
-    },
-
-    "about": {
-        "en": "",
-        "ua": "",
-    },
-
-    "about": {
-        "en": "",
-        "ua": "",
-    },
-
-    "about": {
-        "en": "",
-        "ua": "",
-    },
 
     
 
