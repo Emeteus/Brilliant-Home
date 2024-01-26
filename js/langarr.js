@@ -723,7 +723,7 @@ const langArr = {
         "ua": "Умови користування сервісами",
     },
     
-    "hb": {
+    "hb-2": {
         "en": "HomeBrilliant",
 
         "ua": "HomeBrilliant",
