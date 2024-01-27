@@ -3,219 +3,130 @@
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 
-
-.body{
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 0;
-    font-size: 20px;
+.body {
+  padding: 0;
+  font-size: 20px;
 }
 
-.bgcolor{
+.bgcolor {
   background-color: #ffffff;
   color: black;
-  border-left:3px solid #ff0000;
-  border-right:3px solid #ff0000;
+  border-left: 3px solid #ff0000;
+  border-right: 3px solid #ff0000;
 }
 
-.licolor{
+.licolor {
   color: #ff0000;
-}
-.margin1{
-  margin-left: 90px;
-  margin-right: 100px;
-  color: black;
-}
-.margin2{
-  margin-left: 120px;
-  margin-right: 120px;
-}
-.margin3{
-  margin-left: 50px;
-  margin-right: 130px;
 }
 
 .h1 {
-    font-family: 'Pattaya', sans-serif;
-    font-size: 50px;
-    line-height: 65px;
-    text-align: center;
-    max-width: 100%;
-    min-width: auto; 
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    line-height:1;
-    justify-content: center;
-    
+  font-family: 'Pattaya', sans-serif;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  max-width: 100%;
+  min-width: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  justify-content: center;
 }
 
-
-
-.color{
-  color:#ff0000;
+.color {
+  color: #ff0000;
 }
 
-.p-war{
+.p-war,
+.p-ware {
   font-size: 20px;
   font-weight: bolder;
 }
-.p-ware{
-  font-size: 20px;
-  font-weight: bolder;
+
+.p-ware {
   text-align: center;
 }
 
-.bold{
+.bold {
   font-weight: bolder;
 }
 
-
-.under-text {
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-*::before, *::after {
-  box-sizing: border-box;
-}
-
-
-
-.container-faq {
-  margin: 0 auto;
-  padding: 4rem;
-  width: 48rem;
-}
-
-.accordion .accordion-item {
-  border: 3px solid #ff0000;
-  border-radius: 40px;
-  background-color: rgba(43, 18, 76, 0.5);
-}
-
-
-.accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 2px solid #ff0000;
-}
-
-
-.accordion button {
-  position: relative;
-  display: block;
-  text-align: left;
-  width: 100%;
-  padding: 1em 0;
-  color: #ffffff;
-  font-size: 1.15rem;
-  font-weight: 400;
-  border: none;
-  background: none;
-  outline: none;
-}
-.accordion button:hover, .accordion button:focus {
-  cursor: pointer;
-  color: #ff0000;
-}
-.accordion button:hover::after, .accordion button:focus::after {
-  cursor: pointer;
-  color: #d9ff00;
-  border: 1px solid #ff0000;
-}
-.accordion button .accordion-title {
-  padding: 1em 1.5em 1em 0;
-  padding-left: 20px;
-}
-.accordion button .icon {
-  display: inline-block;
-  position: absolute;
-  top: 18px;
-  right: 20px;
-  width: 22px;
-  height: 22px;
-  border: 1px solid;
-  border-radius: 22px;
-}
-.accordion button .icon::before {
-  display: block;
-  position: absolute;
-  content: "";
-  top: 9px;
-  left: 5px;
-  width: 10px;
-  height: 2px;
-  background: currentColor;
-}
-.accordion button .icon::after {
-  display: block;
-  position: absolute;
-  content: "";
-  top: 5px;
-  left: 9px;
-  width: 2px;
-  height: 10px;
-  background: currentColor;
-}
-.accordion button[aria-expanded=true] {
-  color: #ff0000;
-}
-.accordion button[aria-expanded=true] .icon::after {
-  width: 0;
-}
-.accordion button[aria-expanded=true] + .accordion-content {
-  opacity: 1;
-  max-height: 9em;
-  transition: all 200ms linear;
-  will-change: opacity, max-height;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: aliceblue;
-}
-.accordion .accordion-content {
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: opacity 200ms linear, max-height 200ms linear;
-  will-change: opacity, max-height;
-}
-.accordion .accordion-content p {
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 2em 0;
-}
-
-/* Мобильная адаптация */
-@media only screen and (max-width: 800px) {
-    .container-faq {
-      padding: 2rem; /* Уменьшил отступы для мобильных устройств */
-      width: 100%; /* Ширина на мобильных устройствах будет 100% */
-    }
-  
-    .accordion .accordion-item {
-      border-radius: 20px; /* Уменьшил радиус скругления углов */
-    }
-  
-    .accordion button .icon {
-      top: 30%; /* Поднял иконку немного выше */
-      right: 10px; /* Уменьшил отступ справа */
-    }
-  
-    .accordion button .accordion-title {
-      padding-right: 60px; /* Добавил отступ справа для текста, чтобы избежать наложения на иконки */
-    }
-  
-    .accordion button[aria-expanded=true] + .accordion-content {
-      max-height: none; /* Отменяю максимальную высоту для контента */
-      padding: 10px; /* Увеличил отступы */
-    }
-  
-    .accordion .accordion-content p {
-      margin: 1em 0; /* Уменьшил отступы */
-    }
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+  .body {
+      margin-left: 20px;
+      margin-right: 20px;
   }
-  
+
+  .margin1,
+  .margin2,
+  .margin3 {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .body {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+
+  .margin1 {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+
+  .margin2 {
+      margin-left: 80px;
+      margin-right: 80px;
+  }
+
+  .margin3 {
+      margin-left: 30px;
+      margin-right: 80px;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .body {
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+  .margin1 {
+      margin-left: 90px;
+      margin-right: 100px;
+  }
+
+  .margin2 {
+      margin-left: 120px;
+      margin-right: 120px;
+  }
+
+  .margin3 {
+      margin-left: 50px;
+      margin-right: 130px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .h1 {
+      font-size: 19px;
+      line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .h1 {
+      font-size: 36px;
+      line-height: 46px;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .h1 {
+      font-size: 50px;
+      line-height: 65px;
+  }
+}

@@ -107,7 +107,19 @@ body.dark .dark-lista{
 }
 
 /* ============================================================ */
+body.dark .bgcolor{
+  color: rgb(255, 255, 255);
+  background-color: #555555fa;
+  border-left: 4px solid rgb(241, 144, 109);
+  border-right: 4px solid rgb(241, 144, 109);
+  margin-left: 200px;
+  margin-right: 200px;
+}
 
+body.dark .color{
+  color: rgb(241, 144, 109);
+  font-weight: bolder;
+}
 
 body.dark .box-dark {
   width: 350px;
@@ -124,6 +136,15 @@ body.dark .color-dark{
   filter: invert(100%);
 }
 
+.accordion button:hover{
+  cursor: pointer;
+  color: rgb(241, 144, 109);
+}
+
+.accordion button:focus::after{
+  cursor: pointer;
+  color: rgb(241, 144, 109);
+}
 
 body.dark .accordion-item {
   border: 3px solid rgb(241, 144, 109);
@@ -153,7 +174,7 @@ body.dark .login-button-link {
   align-items: center;
   border: none;
   background-color: transparent;
-  color: rgb(209, 3, 3);
+  color: rgb(241, 144, 109);
   text-align: center;
   text-decoration: none;
   font-size: 16px;

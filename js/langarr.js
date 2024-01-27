@@ -1102,75 +1102,481 @@ const langArr = {
          "en": "HomeBrilliant appreciates your choice and trust in our platform. Thank you for choosing HomeBrilliant! We remain grateful for the opportunity to serve you in real estate and provide a reliable and convenient service for your life and investments.",
          "ua": "HomeBrilliant цінує ваш вибір та довіру до нашої платформи. Дякуємо вам за вибір HomeBrilliant! Ми залишаємося вдячними за можливість служити вам у справах нерухомості та забезпечувати надійний та зручний сервіс для вашого життя та інвестицій.",
      },
+
+     // ================================= FAQ ========================================================================
+
      "84": {
-         "en": "",
-         "ua": "",
+         "en": "Frequently asked questions",
+         "ua": "Поширені запитання",
      },
      "85": {
-         "en": "",
-         "ua": "",
+         "en": "Compensation for damaged real estate",
+         "ua": "Компенсація за пошкоджену нерухомість",
      },
      "86": {
-         "en": "",
-         "ua": "",
+         "en": "Compensation for damaged property is an important part of our interaction with clients. We understand that real estate can be exposed to various risks and provide clear and fair procedures for compensation in case of unforeseen circumstances.",
+         "ua": "Компенсація за пошкоджену нерухомість є важливою частиною нашої взаємодії з клієнтами. Ми розуміємо, що нерухомість може бути викладена на різні ризики, і надаємо чіткі та справедливі процедури для компенсації у випадку непередбачуваних обставин.",
      },
      "87": {
-         "en": "",
-         "ua": "",
+         "en": "Our approach to compensation includes:",
+         "ua": "Наш підхід до компенсації включає в себе:",
      },
      "88": {
-         "en": "",
-         "ua": "",
+         "en": "1. Professional Assessment:",
+         "ua": "1. Професійна Оцінка:",
      },
      "89": {
-         "en": "",
-         "ua": "",
+         "en": "Our team of experts will conduct a professional assessment of property damage or destruction. This is an important stage for the exact determination of the amount of compensation.",
+         "ua": "Наша команда експертів проведе професійну оцінку збитків або зруйнувань нерухомості. Це важливий етап для точного визначення суми компенсації.",
      },
      "90": {
-         "en": "",
-         "ua": "",
+         "en": "2. Transparency and Honesty:",
+         "ua": "2. Транспарентність та Чесність:",
      },
      "91": {
-         "en": "",
-         "ua": "",
+         "en": "We strive to provide fair and transparent conditions for compensation payments, where each client can receive full information about the amount and basis of payments.",
+         "ua": " Ми прагнемо забезпечити чесні та прозорі умови виплати компенсації, де кожен клієнт може отримати повну інформацію про розмір та підстави виплат.",
      },
      "92": {
-         "en": "",
-         "ua": "",
+         "en": "3. Speed and Efficiency:",
+         "ua": "3. Швидкість та Ефективність:",
      },
      "93": {
-         "en": "",
-         "ua": "",
+         "en": "Our goal is to provide quick and efficient resolution of compensation issues. We understand that time is very important for our clients, so we work to minimize processing and payout times.",
+         "ua": " Наша мета - забезпечити швидке та ефективне вирішення питань компенсації. Ми розуміємо, що час для наших клієнтів дуже важливий, тому працюємо над мінімізацією термінів розгляду та виплат.",
      },
      "94": {
-         "en": "",
-         "ua": "",
+         "en": "4. Individual Approach:",
+         "ua": "4. Індивідуальний Підхід:",
      },
      "95": {
-         "en": "",
-         "ua": "",
+         "en": "Each situation is unique, and we consider the individual characteristics of each case when determining compensation. Our goal is to provide an approach adapted to specific needs.",
+         "ua": "Кожна ситуація є унікальною, і ми враховуємо індивідуальні особливості кожного випадку при визначенні компенсації. Наша мета - забезпечити адаптований до конкретних потреб підхід.",
      },
      "96": {
-         "en": "",
-         "ua": "",
+         "en": "5. Protection of the Client's Interests:",
+         "ua": "5. Захист Інтересів Клієнта:",
      },
      "97": {
-         "en": "",
-         "ua": "",
+         "en": "We always stand by the interests of our clients and do everything we can to ensure a fair and appropriate amount of compensation.",
+         "ua": " Ми завжди стоїмо на захисті інтересів наших клієнтів і робимо все можливе, щоб забезпечити справедливу та відповідну суму компенсації.",
      },
      "98": {
-         "en": "",
-         "ua": "",
+         "en": "Through our approach to compensation for damaged and destroyed properties, we create long-term partnerships with our clients and strive to ensure their complete satisfaction with our services",
+         "ua": "Завдяки нашому підходу до компенсації за пошкоджену та зруйновану нерухомість, ми створюємо довгострокові партнерства з нашими клієнтами та прагнемо забезпечити їхню повну задоволеність нашими послугами",
      },
      "99": {
-         "en": "",
-         "ua": "",
+         "en": "Please note: the situation is changing, so the data is current as of 07.05.2024 We will supplement the information!",
+         "ua": "До уваги: ситуація змінюється, тож дані актуальні на 5.07.2024 р. Ми будемо доповнювати інформацію!",
      },
-     "100": {
-         "en": "",
-         "ua": "",
-     }
 
+     "100":{
+        "en": "What services does your real estate agency provide?",
+        "ua": "Які послуги надає ваше ріелторське агентство?",
+     },
+     
+     "101": {
+        "en": "We offer a full range of services, including buying, selling and renting real estate, legal advice and valuation of your properties.",
+        "ua": "Ми пропонуємо повний спектр послуг, включаючи купівлю, продаж і оренду нерухомості, консультації з юридичних питань і оцінку вартості ваших власностей.",
+    },
+    "102": {
+        "en": "How long does the real estate sale process take?",
+        "ua": "Як довго триває процес продажу нерухомості?",
+    },
+    "103": {
+        "en": "The timing of the sale depends on a number of factors, such as market conditions, property type and location. We do our best for a fast and efficient process.",
+        "ua": "Час продажу залежить від ряду факторів, таких як ринкові умови, тип нерухомості і розташування. Ми робимо все можливе для швидкого та ефективного процесу.",
+    },
+    "104": {
+        "en": "What costs are associated with the services of a realtor?",
+        "ua": "Які витрати пов'язані з послугами ріелтора?",
+    },
+    "105": {
+        "en": "Costs may include realtor commissions, taxes, and other expenses. Detailed costs will be honestly discussed at the beginning of the cooperation.",
+        "ua": " Витрати можуть включати комісійні для ріелтора, податки та інші витрати. Детальні витрати будуть чесно обговорені на початку співпраці.",
+    },
+    "106": {
+        "en": "How to choose an ideal real estate object?",
+        "ua": "Як вибрати ідеальний об'єкт нерухомості?",
+    },
+    "107": {
+        "en": "Our realtors will help you understand your needs, budget and choose the optimal object, taking into account all your requirements.",
+        "ua": "Наші ріелтори допоможуть вам зрозуміти ваші потреби, бюджет і вибрати оптимальний об'єкт з врахуванням всіх ваших вимог.",
+    },
+    "108": {
+        "en": "Frequently asked questions about investments in the first place",
+        "ua": "Поширені запитання про інвестиції на первинці",
+    },
+    "109": {
+        "en": "Investments at the beginning: what to pay attention to",
+        "ua": "Інвестиції на первинці: на що звернути увагу",
+    },
+    "110": {
+        "en": "Investing in real estate for the first time is an important decision, and careful analysis of various aspects can determine your success in this type of investment. Here's what you should pay attention to:",
+        "ua": "Інвестування в нерухомість на первинці є важливим рішенням, і ретельний аналіз різних аспектів може визначити ваш успіх у цьому виді інвестицій. Ось на що варто звернути увагу:",
+    },
+    "111": {
+        "en": "1. Location:",
+        "ua": "1. Розташування:",
+    },
+    "112": {
+        "en": "Determine how attractive the location of the object is. Proximity to infrastructure, transport and other services can significantly affect the value of real estate in the future.",
+        "ua": "Визначте, наскільки привабливим є розташування об'єкта. Близькість до інфраструктури, транспорту та інших сервісів може значно вплинути на цінність нерухомості в майбутньому.",
+    },
+    "113": {
+        "en": "2. Builder and Development:",
+        "ua": "2.Забудовник і Девелопмент:",
+    },
+    "114": {
+        "en": "Research the developer's reputation and development characteristics. The quality of building materials, previous projects and the developer's rating are key factors.",
+        "ua": "Досліджуйте репутацію забудовника та характеристики девелопменту. Якість будівельних матеріалів, попередні проекти та рейтинг забудовника є ключовими факторами.",
+    },
+    "115": {
+        "en": "3. Planning and Design:",
+        "ua": "3. Планування та Дизайн:",
+    },
+    "116": {
+        "en": "Analyze the layout of the apartments and the overall design of the building. This can affect the attractiveness to potential tenants or buyers.",
+        "ua": "Аналізуйте планування квартир та загальний дизайн будівлі. Це може вплинути на привабливість для потенційних орендарів чи покупців.",
+    },
+    "117": {
+        "en": "4. Price Dynamics:",
+        "ua": "4. Цінова Динаміка:",
+    },
+    "118": {
+        "en": "Watch real estate prices in the region. Analysis of price dynamics will help to understand the potential growth of the value of your investment.",
+        "ua": "Спостерігайте за цінами на нерухомість в регіоні. Аналіз цінової динаміки допоможе зрозуміти потенційний ріст вартості вашої інвестиції.  ",
+    },
+    "119": {
+        "en": "5. Legal Aspects:",
+        "ua": "5. Юридичні Аспекти:",
+    },
+    "120": {
+        "en": "Check legal documents related to construction and ownership. This is important to avoid unforeseen legal problems in the future.",
+        "ua": " Перевірте юридичні документи, пов'язані з будівництвом та власністю. Це важливо для уникнення непередбачених юридичних проблем у майбутньому.",
+    },
+    "121": {
+        "en": "6. Amenities and Services:",
+        "ua": "6. Зручності та Сервіси:",
+    },
+    "122": {
+        "en": "Evaluate the availability of amenities and services such as parking, sports fields, security and others. This can make it more attractive to tenants or buyers.",
+        "ua": "Оцініть доступність зручностей та сервісів, таких як парковки, спортивні майданчики, безпека та інші. Це може підвищити привабливість для орендарів або покупців.",
+    },
+    "123": {
+        "en": "7. Potential Rental Income:",
+        "ua": "7. Потенційна Орендна Дохідність:",
+    },
+    "124": {
+        "en": "Calculate the potential rental income. Determine how it compares to other investments and whether you are satisfied with this level of return",
+        "ua": "Розрахуйте потенційний орендний дохід. Визначте, як він порівнюється з іншими інвестиціями та чи задовольняє вас цей рівень прибутк",
+    },
+    "125": {
+        "en": "8. Financial Sustainability of the Developer:",
+        "ua": "8. Фінансова Устійчивість Забудовника:",
+    },
+    "126": {
+        "en": "Make sure the developer is financially stable. This is important to complete construction and maintain quality.",
+        "ua": "Переконайтеся, що забудовник фінансово стійкий. Це важливо для завершення будівництва та збереження якості.",
+    },
+    "127": {
+        "en": "9. District Planning Rules:",
+        "ua": "9. Правила Планування Району:",
+    },
+    "128": {
+        "en": "Check your local planning and development regulations. This will help to avoid unpleasant surprises during expansion or modification.",
+        "ua": " Ознайомтеся з місцевими правилами планування та забудови. Це допоможе уникнути неприємних сюрпризів при розширенні чи модифікації.",
+    },
+    "129": {
+        "en": "10. Infrastructure Projects:",
+        "ua": "10. Інфраструктурні Проекти:",
+    },
+    "130": {
+        "en": "Explore planned infrastructure projects in the region. This can affect the development of the area and increase its value.",
+        "ua": " Вивчайте заплановані інфраструктурні проекти в регіоні. Це може вплинути на розвиток району та підвищити його цінність.",
+    },
+    "131": {
+        "en": "Investing in the first place requires caution and analysis. Pay attention to various factors to make an informed decision and achieve a successful outcome in real estate investment.",
+        "ua": "Інвестування на первинці вимагає обережності та аналізу. Звертайте увагу на різні фактори, щоб зробити інформоване рішення та досягти успішного результату в нерухомісних інвестиціях.",
+    },
+    "132": {
+        "en": "What are the guarantees?",
+        "ua": "Які гарантії безпеки моєї транзакції?",
+    },
+    "133": {
+        "en": "We maintain high standards of confidentiality and security, use legal advice and provide all necessary information to ensure the reliability of your transaction",
+        "ua": " Ми дотримуємо високих стандартів конфіденційності та безпеки, використовуємо юридичні консультації і надаємо всю необхідну інформацію для забезпечення надійності вашої транзакції",
+    },
+    "134": {
+        "en": "What are the investment opportunities?",
+        "ua": "Які можливості для інвестицій?",
+    },
+    "135": {
+        "en": "Our realtors will help you find properties for investment, taking into account potential income and risks.",
+        "ua": "Наші ріелтори допоможуть вам знайти об'єкти для інвестування з урахуванням потенційного доходу та ризиків.",
+    },
+    "136": {
+        "en": "How to choose the best mortgage offer?",
+        "ua": "Як вибрати найвигіднішу іпотечну пропозицію?",
+    },
+    "137": {
+        "en": "We will advise you to understand the terms of lending, compare the rates and conditions of different banks, and help you decide on the most profitable offer.",
+        "ua": "Ми порадимо вам зрозуміти умови кредитування, порівняти ставки і умови різних банків, допоможемо визначитися з найвигіднішою пропозицією.",
+    },
+    "138": {
+        "en": "What are the recommendations for preparing housing for sale?",
+        "ua": "Які рекомендації для підготовки житла до продажу?",
+    },
+    "139": {
+        "en": "We will help you get the property in order, make the necessary repairs and prepare an attractive presentation material.",
+        "ua": "Ми допоможемо вам навести власність у належний порядок, зробити необхідні ремонти та підготувати привабливий презентаційний матеріал.",
+    },
+    "140": {
+        "en": "Frequently asked questions about the service",
+        "ua": "Поширені запитання про роботу сервісу",
+    },
+    "141": {
+        "en": "We have collected and verified information about all new buildings and apartment complexes so that you can choose the best home for you.",
+        "ua": "Ми зібрали та перевірили інформацію про всі новобудови та житлові комплекси, щоб ви могли обрати найкращий дім для себе.",
+    },
+    "142": {
+        "en": "Our mission is to provide you with complete and reliable information about all new buildings and residential complexes. We have carefully checked and collected data so that you can choose the best option for you. Our property descriptions contain important data about location, housing types, infrastructure and other key characteristics. We provide photo and video reviews so that you can better understand the appearance and interior design of the objects. You can evaluate the presence of nearby shops, schools and other infrastructure. Detailed price schedules will help you determine how the selected objects fit into your budget. We also provide an opportunity to get acquainted with the reviews of real residents and get insights into life in specific residential complexes. Our team is ready to provide you with individual advice and answer all your questions to provide you with the full range of information for your decision. Choose the best home for you with our help and make your choice based on objective and detailed information.",
+        "ua": " Наша місія полягає в тому, щоб забезпечити вам повну та достовірну інформацію про всі новобудови та житлові комплекси. Ми ретельно перевірили та зібрали дані, щоб ви могли обрати оптимальний варіант для себе. Наші описи об'єктів містять важливі дані про розташування, типи житла, інфраструктуру та інші ключові характеристики. Ми надаємо фото та відеоогляди, щоб ви могли краще зрозуміти зовнішній вигляд і внутрішнє оформлення об'єктів. Ви можете оцінити наявність близьких магазинів, шкіл та іншої інфраструктури. Детальні цінові розклади допоможуть вам визначити, як обрані об'єкти вписуються в ваш бюджет. Ми також надаємо можливість ознайомитися з відгуками реальних мешканців та отримати інсайти в щодо життя в конкретних житлових комплексах. Наша команда готова надати вам індивідуальні консультації та відповісти на всі ваші питання, щоб забезпечити повний обсяг інформації для вашого рішення. Оберіть найкращий дім для себе з нашою допомогою та зробіть свій вибір на основі об'єктивної та детальної інформації.",
+    },
+    "143": {
+        "en": "Can I buy an apartment on HomeBrilliant?",
+        "ua": "Я можу купити квартиру на HomeBrilliant?",
+    },
+    "144": {
+        "en": "You cannot buy an apartment on HomeBrilliant New Construction",
+        "ua": "На HomeBrilliant Новобудови не можна купити квартиру",
+    },
+    "145": {
+        "en": "Sorry for any misunderstanding. At HomeBrilliant, we offer you not only the opportunity to buy an apartment, but also access to complete information about new buildings and residential complexes. Our platform is designed to provide you with all the information you need to make informed real estate decisions. If you have specific questions or need additional assistance, our team of experts is here to support you. Please feel free to reach out for advice or other information that may be useful for your life or real estate investment.",
+        "ua": " Вибачте за будь-яке непорозуміння. На HomeBrilliant ми пропонуємо вам не тільки можливість придбати квартиру, але й доступ до повної інформації про новобудови та житлові комплекси. Наша платформа розроблена для того, щоб надати вам всю необхідну інформацію для прийняття обдуманих рішень щодо нерухомості. Якщо ви маєте конкретні запитання або потребуєте додаткової допомоги, наша команда експертів готова вас підтримати. Будь ласка, звертайтеся за консультацією чи іншою інформацією, яка може бути корисною для вашого життя або інвестицій в нерухомість.",
+    },
+    "146": {
+        "en": "Can I find out apartment prices on HomeBrilliant?",
+        "ua": "Чи можна дізнатися ціни на квартири на HomeBrilliant?",
+    },
+    "147": {
+        "en": "At HomeBrilliant, we check prices manually.",
+        "ua": "На HomeBrilliant ми перевіряємо ціни вручну.",
+    },
+    "148": {
+        "en": "Sorry for any misunderstanding. Unfortunately, I do not have specific information about the ability to view apartment prices on HomeBrilliant, as I do not have direct access to the Internet or specific data from the HomeBrilliant portal. However, I can advise you to check the prices and available properties on the official HomeBrilliant website or contact their support directly for up-to-date information. If you have specific questions or other needs, I am ready to help to the best of my ability.",
+        "ua": "Вибачте за будь-яке непорозуміння. На жаль, я не маю конкретної інформації про можливість перегляду цін на квартири на HomeBrilliant, оскільки не маю прямого доступу до Інтернету чи конкретних даних з порталу HomeBrilliant. Однак, я можу надати пораду перевірити ціни та доступні об'єкти на офіційному веб-сайті HomeBrilliant або звертатися безпосередньо до їхньої служби підтримки для отримання актуальної інформації. Якщо у вас є конкретні питання чи інші потреби, я готовий допомогти в межах моїх можливостей.",
+    },
+    "149": {
+        "en": "",
+        "ua": "",
+    },
+    "150": {
+        "en": "",
+        "ua": "",
+    },
+    "151": {
+        "en": "",
+        "ua": "",
+    },
+    "152": {
+        "en": "",
+        "ua": "",
+    },
+    "153": {
+        "en": "",
+        "ua": "",
+    },
+    "154": {
+        "en": "",
+        "ua": "",
+    },
+    "155": {
+        "en": "",
+        "ua": "",
+    },
+    "156": {
+        "en": "",
+        "ua": "",
+    },
+    "157": {
+        "en": "",
+        "ua": "",
+    },
+    "158": {
+        "en": "",
+        "ua": "",
+    },
+    "159": {
+        "en": "",
+        "ua": "",
+    },
+    "160": {
+        "en": "",
+        "ua": "",
+    },
+    "161": {
+        "en": "",
+        "ua": "",
+    },
+    "162": {
+        "en": "",
+        "ua": "",
+    },
+    "163": {
+        "en": "",
+        "ua": "",
+    },
+    "164": {
+        "en": "",
+        "ua": "",
+    },
+    "165": {
+        "en": "",
+        "ua": "",
+    },
+    "166": {
+        "en": "",
+        "ua": "",
+    },
+    "167": {
+        "en": "",
+        "ua": "",
+    },
+    "168": {
+        "en": "",
+        "ua": "",
+    },
+    "169": {
+        "en": "",
+        "ua": "",
+    },
+    "170": {
+        "en": "",
+        "ua": "",
+    },
+    "171": {
+        "en": "",
+        "ua": "",
+    },
+    "172": {
+        "en": "",
+        "ua": "",
+    },
+    "173": {
+        "en": "",
+        "ua": "",
+    },
+    "174": {
+        "en": "",
+        "ua": "",
+    },
+    "175": {
+        "en": "",
+        "ua": "",
+    },
+    "176": {
+        "en": "",
+        "ua": "",
+    },
+    "177": {
+        "en": "",
+        "ua": "",
+    },
+    "178": {
+        "en": "",
+        "ua": "",
+    },
+    "179": {
+        "en": "",
+        "ua": "",
+    },
+    "180": {
+        "en": "",
+        "ua": "",
+    },
+    "181": {
+        "en": "",
+        "ua": "",
+    },
+    "182": {
+        "en": "",
+        "ua": "",
+    },
+    "183": {
+        "en": "",
+        "ua": "",
+    },
+    "184": {
+        "en": "",
+        "ua": "",
+    },
+    "185": {
+        "en": "",
+        "ua": "",
+    },
+    "186": {
+        "en": "",
+        "ua": "",
+    },
+    "187": {
+        "en": "",
+        "ua": "",
+    },
+    "188": {
+        "en": "",
+        "ua": "",
+    },
+    "189": {
+        "en": "",
+        "ua": "",
+    },
+    "190": {
+        "en": "",
+        "ua": "",
+    },
+    "191": {
+        "en": "",
+        "ua": "",
+    },
+    "192": {
+        "en": "",
+        "ua": "",
+    },
+    "193": {
+        "en": "",
+        "ua": "",
+    },
+    "194": {
+        "en": "",
+        "ua": "",
+    },
+    "195": {
+        "en": "",
+        "ua": "",
+    },
+    "196": {
+        "en": "",
+        "ua": "",
+    },
+    "197": {
+        "en": "",
+        "ua": "",
+    },
+    "198": {
+        "en": "",
+        "ua": "",
+    },
+    "199": {
+        "en": "",
+        "ua": "",
+    },
+    "200": {
+        "en": "",
+        "ua": "",
+    }
+
+    
 
 
 };

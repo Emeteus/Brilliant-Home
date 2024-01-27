@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
 
 body{
     margin: 0;
@@ -9,7 +9,7 @@ body{
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
+  font-family: 'Philosopher', sans-serif;
     font-size: 90px;
     line-height: 65px;
     text-align: center;
@@ -25,8 +25,8 @@ h1 {
 
 
 .under-text {
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 40px;
     text-align: center;
     margin: 0 auto;
 }
@@ -71,11 +71,16 @@ h1 {
   background: none;
   outline: none;
 }
-.accordion button:hover, .accordion button:focus {
+.accordion button:hover{
   cursor: pointer;
   color: #ff0000;
 }
-.accordion button:hover::after, .accordion button:focus::after {
+
+.accordion button:focus::after{
+  cursor: pointer;
+  color: #ff0000;
+}
+.accordion button:hover::after {
   cursor: pointer;
   color: #d9ff00;
   border: 1px solid #ff0000;
@@ -159,7 +164,8 @@ h1 {
     }
   
     .accordion button .accordion-title {
-      padding-right: 60px; /* Добавил отступ справа для текста, чтобы избежать наложения на иконки */
+      padding-right: 100px; /* Добавил отступ справа для текста, чтобы избежать наложения на иконки */
+      white-space:initial
     }
   
     .accordion button[aria-expanded=true] + .accordion-content {
@@ -170,5 +176,13 @@ h1 {
     .accordion .accordion-content p {
       margin: 1em 0; /* Уменьшил отступы */
     }
+  }
+
+  @media only screen and (max-width: 300) {
+
+    h1{
+      font-size: 100px;
+    }
+    
   }
   

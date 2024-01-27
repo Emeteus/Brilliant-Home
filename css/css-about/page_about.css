@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 
@@ -22,7 +23,7 @@
 }
 
 .about-p {
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 35px;
     margin-right: 30px; /* Adjusted margin to create space between text and image */
     margin-left: 30px;
