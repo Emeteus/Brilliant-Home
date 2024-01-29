@@ -173,6 +173,8 @@ h1 {
 @media (max-width: 800px) {
     .box::before {
         background-image: url('../../img/bg/mobile-photo1.jpg');
+        /* ../../img/bg/mobile-photo1.jp */
+        /* ../../img/bg/photo1.png */
     }
 
     .mini-box {
@@ -202,7 +204,7 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url('../../img/bg/photo2.png');
+    background-image: url('../../img/bg/photo2.PNG');
     background-size: cover;
     filter: blur(2px); 
     z-index: -1;

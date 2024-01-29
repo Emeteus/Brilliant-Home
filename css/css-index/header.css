@@ -316,7 +316,7 @@ a {
       transition: width 475ms ease-out, transform 450ms ease, border-radius 0.8s 0.1s ease;
       border-bottom-left-radius: 100vw;
       background-color: rgba(43, 18, 76, 0.5);
-      backdrop-filter: blur(5px);
+      backdrop-filter: blur(10px);
     }
     .header .menu::after {
       content: "";
