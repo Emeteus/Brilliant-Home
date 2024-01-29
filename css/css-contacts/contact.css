@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+
 .body {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    overflow-x:hidden;  
 }
 
 .main-container {
@@ -14,10 +18,25 @@
     overflow: hidden;
 }
 
-#map-container {
+.map {
     height: 400px;
     overflow: hidden;
-    border-right: 2px solid rgb(211, 1, 19);
+    border-radius: 40px;
+}
+
+.bord{
+    border: 4px solid rgb(211, 1, 19);
+    border-radius: 40px;
+}
+
+.color{
+    color: rgb(211, 1, 19);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.bold{
+    font-weight: bolder;
 }
 
 #info-container {
@@ -33,18 +52,24 @@
 
 /* Медиа-запрос для мобильных экранов */
 @media only screen and (max-width: 800px) {
+
+    .body{
+        overflow-x:hidden;  
+    }
+
     .main-container {
         flex-direction: column;
     }
 
-    #map-container {
+    .map {
         height: 200px;
+
     }
 }
 
 
 .line{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
     background-color: rgba(43, 18, 76, 0.5);

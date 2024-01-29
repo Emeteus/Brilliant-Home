@@ -112,8 +112,7 @@ body.dark .bgcolor{
   background-color: #555555fa;
   border-left: 4px solid rgb(241, 144, 109);
   border-right: 4px solid rgb(241, 144, 109);
-  margin-left: 200px;
-  margin-right: 200px;
+
 }
 
 body.dark .color{

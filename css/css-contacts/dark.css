@@ -121,6 +121,11 @@ body.dark .box-dark {
   justify-content: center;
 }
 
+body.dark .color{
+  color: rgb(241, 144, 109);
+  font-weight: bolder;
+}
+
 body.dark .color-dark{
   filter: invert(100%);
 }
@@ -157,5 +162,19 @@ body.dark .login-dropdown-content {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
+
+body.dark .map {
+
+  filter: grayscale(1) invert(100%);
+
+}
+
+body.dark .bord{
+  border: 4px solid rgb(241, 144, 109);
+  border-radius: 40px;
+}
+
+
 
 

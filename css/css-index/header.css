@@ -291,18 +291,19 @@ a {
       position: relative;
     }
     .header .menu {
-      pointer-events: none;
-      z-index: 1000;
-      position: fixed;
-      right: 0;
-      top: 0;
-      overflow: hidden;
-      flex-direction: column;
-      justify-content: center;
-      width: 40%;
-      height: 100vh;
-      padding-top: 60px;
-      padding-right: 30px;
+        pointer-events: none;
+        z-index: 1000;
+        position: fixed;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%; /* Увеличьте это значение для увеличения ширины меню */
+        height: 100vh;
+        padding-top: 60px;
+        padding-right: 30px;
+    
     }
     .header .menu::before {
       content: "";
