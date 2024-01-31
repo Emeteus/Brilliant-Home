@@ -19,7 +19,8 @@
 }
 
 .map {
-    height: 400px;
+    height: 600px;
+    width: 1200px;
     overflow: hidden;
     border-radius: 40px;
 }
@@ -37,6 +38,7 @@
 
 .bold{
     font-weight: bolder;
+    
 }
 
 #info-container {
@@ -49,25 +51,6 @@
     align-items: center;
     overflow: hidden;
 }
-
-/* Медиа-запрос для мобильных экранов */
-@media only screen and (max-width: 800px) {
-
-    .body{
-        overflow-x:hidden;  
-    }
-
-    .main-container {
-        flex-direction: column;
-    }
-
-    .map {
-        height: 200px;
-
-    }
-}
-
-
 .line{
     font-family: 'Philosopher', sans-serif;
     font-weight: 700;
@@ -84,3 +67,24 @@
     border-bottom: 2px solid rgb(211, 1, 19); 
     
   }
+
+/* Медиа-запрос для мобильных экранов */
+@media only screen and (max-width: 800px) {
+
+    .body{
+        overflow-x:hidden;  
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .map {
+        height: 500px;
+        width: 400px;
+
+    }
+}
+
+
+

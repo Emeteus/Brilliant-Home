@@ -1369,7 +1369,7 @@ const langArr = {
     },
     "149": {
         "en": "Where is our office located!",
-        "ua": "Де знаходитись наш офіс!",
+        "ua": "Де знаходиться наш офіс!",
     },
     "150": {
         "en": "Feel free get in touch with us...",

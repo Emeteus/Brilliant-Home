@@ -82,7 +82,7 @@ footer {
 
 
 .footer-bottom p a {
-  color: #ffb700;
+  color: #7440b8;
   font-size: 14px; /* Уменьшен размер шрифта */
   text-decoration: none;
 }
@@ -113,7 +113,7 @@ footer {
 }
 
 .footer-menu ul li a:hover {
-  color: #ffb700;
+  color: #7440b8;
 }
 
 @media (max-width:500px) {

@@ -38,6 +38,15 @@ h1 {
     
 }
 
+.boxnum{
+    background-color: #0000009a;
+}
+
+body.dark .boxnum{
+    background-color: rgb(84, 84, 84);
+
+}
+
 
 .under-text {
     font-family: 'Philosopher', sans-serif;
@@ -61,6 +70,7 @@ h1 {
     border: 3px solid #fd0000;
     border-radius: 40px;
     background-color: aliceblue;
+    color: aliceblue;
     margin: 10px;
     display: inline-block;
     justify-content: center;
