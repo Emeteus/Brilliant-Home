@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrilliantHome|View</title>
+    <!--=============== ICO ===============-->
+    <link rel="icon" type="ICO" sizes="32x32" href="img/logo/ico.png">
+    <link rel="icon" type="ICO" sizes="16x16" href="img/logo/ico.png">
+    <link rel="apple-touch-icon" type="ICO" sizes="180x180" href="img/logo/ico.png">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/css-view/header.css">
+    <link rel="stylesheet" href="css/css-view/main.css">
+    <link rel="stylesheet" href="css/css-view/dark.css"> 
+    <link rel="stylesheet" href="css/css-view/space.css">
+    <link rel="stylesheet" href="css/css-view/button.css">
+    <link rel="stylesheet" href="css/css-view/footer.css">
+    <link rel="stylesheet" href="css/css-view/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- ================= HEADER =================-->
+    <header class="header dark-head">
+      <div class="container">
+          <nav class="nav">
+              <div class="nav__login">
+                  <ul class="flex items-center">
+                      <li>
+
+                        <div class="dropdown" id="loginDropdown">
+                          <button class="login-button-link" onclick="toggleDropdown()">
+                              <img src="img/svg/login.svg" alt="Login" class="login-icon white-icon">
+                          </button>
+                          <div class="login-dropdown-content" id="dropdownContent">
+                            
+                            <a href="login.html">
+                              <img src="img/svg/login.svg" alt="Register" class="login-icon invert-color">
+                              <span class="dark-lista translate" data-lang-id="login">Login</span>
+                          </a>
+
+                              <a href="reg.html">
+                                  <img src="img/svg/register.svg" alt="Register" class="login-icon invert-color">
+                                  <span class="dark-lista translate" data-lang-id="register">Register</span>
+                              </a>
+                          </div>
+                      </div>
+                      
+                      
+                      
+                      </li>
+                      <li>
+                        <div class="language-dropdown">
+                          <button id="languageButton" class="flex items-center white-icon">
+                              <img src="img/svg/lang.svg" alt="Language" class="login-icon">
+                          </button>
+                          <div class="language-list dark-list">
+                              <ul class="listul">
+                                  <li class="listli"><a href="#" data-lang-code="en" class="lista hovera dark-lista"><img src="img/logo/eng.png" class="flag" alt="English Flag"> <span data-lang-id="eng">English</span></a></li>
+                                  <li class="listli"><a href="#" data-lang-code="ua" class="lista hovera dark-lista"><img src="img/logo/ukr.png" class="flag" alt="Ukraine Flag"><span data-lang-id="ua">Ukrainian</span></a></li>
+                                  <!-- Добавьте другие языки по необходимости -->
+                              </ul>
+                          </div>
+                      </div>
+                      </li>
+                      <li>
+                          <button id="toggleButton" class="flex items-center">
+                              <img src="img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
+                              <img src="img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+                          </button>
+                      </li>
+                  </ul>
+              </div>
+
+              <ul class="menu ">
+                  <li class="item " >
+                      <a href="index.html"span data-lang-id="home">Home</a>
+                  </li>
+                  <li class="item " >
+                      <a href="about.html" span data-lang-id="about-hed">About</a>
+                  </li>
+                  <li class="item " >
+                      <a href="contacts.html" span data-lang-id="contacts">Contacts</a>
+                  </li>
+                  <li class="item active">
+                      <a href="#" span data-lang-id="catalog">Сatalog</a>
+                  </li>
+                  <li class="item ">
+                      <a href="faq.html">FAQ</a>
+                  </li>
+              </ul>
+
+              <div class="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+          </nav>
+      </div>
+  </header>
+
+
+    <!-- =============== END HEADER ===============-->
+
+    <!-- ================== PAGE ==================-->
+    <main>
+<div class="akr">
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slide" data-lightbox="slider" data-title="Image 1" style="background-image: url('img/home_photo/home1.jpg');"></div>
+              <div class="slide" data-lightbox="slider" data-title="Image 2" style="background-image: url('img/home_photo/home2.jpg');"></div>
+              <div class="slide" data-lightbox="slider" data-title="Image 3" style="background-image: url('img/home_photo/home3.jpg');"></div>
+              <div class="slide" data-lightbox="slider" data-title="Image 4" style="background-image: url('img/home_photo/home4.jpg');"></div>
+              <div class="slide" data-lightbox="slider" data-title="Image 5" style="background-image: url('img/home_photo/home5.jpg');"></div>
+              <div class="slide" data-lightbox="slider" data-title="Image 6" style="background-image: url('img/home_photo/home6.jpg');"></div>
+              <div class="slide" data-lightbox="slider" data-title="Image 7" style="background-image: url('img/home_photo/home7.jpg');"></div>
+              <div class="slide" data-lightbox="slider" data-title="Image 8" style="background-image: url('img/home_photo/home8.jpg');"></div>
+            </div>
+          
+            <button class="prev buttons">&#10094;</button>
+            <button class="next buttons">&#10095;</button>
+          </div>
+        </div>
+
+          <div class="space-200px"></div>
+              
+    </main>
+    <!-- ================ END PAGE ================-->
+
+    <!-- ================= FOOTER =================-->
+    <footer>
+      <div class="footer-content">
+          <h3 class="footer-h3">Brilliant Home</h3>
+          <div class="footer-menu">
+              <hr>
+              <ul class="f-menu">
+                <li><a href="index.html" data-lang-id="home">Home</a></li>
+                <li><a href="about.html" data-lang-id="about-hed">About</a></li>
+                <li><a href="contacts.html" data-lang-id="contacts">Contact</a></li>
+                <li><a href="#" data-lang-id="catalog">Сatalog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </div>
+          <p class="translate" data-lang-id="hb">HomeBrilliant - ваш надійний партнер у світі елітної нерухомості. Забезпечте собі стильне та комфортне майбутнє з нашими унікальними пропозиціями. 
+          </p>
+          <div class="flex-center">
+              <i class="fa fa-github fa-4x icon-3d"></i>
+                <i class="fa fa-twitter fa-4x icon-3d"></i>
+                <i class="fa fa-facebook fa-4x icon-3d"></i>
+                <i class="fa fa-instagram fa-4x icon-3d"></i>
+            </div>
+<br>
+            <a href="privacy.html" class="privacy translate" data-lang-id="privacy">Умови користування та Політика конфіденційності</a> 
+                    
+      </div>
+      
+      <hr>
+      <div class="footer-bottom ">
+        <p>copyright &copy; 2024 <a href="index.html"> HomeBrilliant.</a></p>
+      </div>
+  </hr>
+
+  </footer>
+    <!-- =============== END FOOTER ===============-->
+
+
+    <script src="js/header.js"></script>
+    <script defer src="js/dark.js"></script>
+    <!-- <script src="js/page.js"></script> -->
+    <script src="js/slider-view.js"></script>
+    
+    <!-- =========================================== -->
+    <script src="js/language.js"></script>
+    <script src="js/langarr.js"></script>
+    <!-- =========================================== -->
+
+    <script src="js/login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  </body>
+</html>

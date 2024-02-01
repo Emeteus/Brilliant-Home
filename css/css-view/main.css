@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    line-height: 65px;
+    text-align: center;
+    max-width: 60%;
+    min-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.under-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.line {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 18, 76, 0.5);
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    border-top: 1px solid rgb(211, 1, 19);
+    border-bottom: 1px solid rgb(211, 1, 19);
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    border-top: 3px solid rgb(255, 0, 0);
+}
+
+.akr{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lightbox-big-image {
+    text-align: center;
+}
+
+.lightbox-big-image img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.lightbox-thumbnails {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.lightbox-thumbnail img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.lightbox-content {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .akr{
+    margin: 0;
+  }
+    .slider-container {
+        width: 100%;
+    }
+
+    .slide {
+        height: 200px;
+    }
+
+    .buttons {
+        font-size: 18px;
+    }
+}
