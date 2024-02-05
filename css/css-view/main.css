@@ -20,12 +20,43 @@ h1 {
     line-height: 1;
 }
 
-.under-text {
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    text-align: center;
-    margin: 0 auto;
+h2{
+    font-size: 50px;
+    margin-left: 30px;
 }
+
+.under-text {
+    font-size: 30px;
+    margin:  auto;
+    background-color: rgba(43, 18, 76, 0.5);
+    border-radius: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 10px;
+}
+
+.conta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ops {
+    background-color: rgba(43, 18, 76, 0.5);
+    border-radius: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 20px;
+    width: 60%; /* Adjust the width as needed */
+}
+
+.cont {
+    background-color: rgba(43, 18, 76, 0.5);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 40px;
+    padding: 20px;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
 
 .line {
     font-family: 'Dancing Script', cursive;
@@ -52,6 +83,7 @@ h1 {
 .akr{
   margin-left: 200px;
   margin-right: 200px;
+  background-color: #fff;
 }
 
 
@@ -140,6 +172,11 @@ h1 {
 }
 
 @media only screen and (max-width: 1100px) {
+
+    h2{
+        font-size: 30px;
+        margin-left: 10px;
+    }
 
   .akr{
     margin: 0;
